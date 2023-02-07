@@ -1,0 +1,159 @@
+
+.contact{
+    height:100vh;
+    width:96%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Roboto';
+}
+
+
+.contact_container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-right:0px 100px 0 100px;
+    
+}
+.contact_options{
+    
+    flex:0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:90vh;
+}
+
+.option{
+    background-color: white;
+    margin:30px;
+    border-radius:10px;
+    padding:20px;
+    height:160px;
+    width:260px;
+    line-height: 30px;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.option > a{
+    font-size: 14px;
+}
+
+.option:hover{
+    background: transparent;
+    transition: transform 3s all;
+    border-color: var(--color-primary-variant);
+}
+.form_container
+{
+    flex:0.6;
+    height:86vh;
+    font-weight: 400;
+    font-family: 'Roboto';
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    color: black;
+    margin-right:100px;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+}
+
+
+.name_email{
+    
+    display: grid;
+    margin:20px;
+    padding: 20px;
+    width:100%;
+}
+
+.input {
+    width:90%;
+    height:50px;
+    color:rgb(37, 33, 33);
+    text-indent: 20px;
+    margin: 20px;
+    border:2px solid gray;
+    
+    
+}
+
+
+.textarea_section
+{
+    
+    display: grid;
+    padding: 20px;
+    width:100%;
+}
+
+
+.textarea{
+    width:90%;
+    height:150px;
+    color:rgb(37, 33, 33);
+    text-indent: 20px;
+    line-height: 40px;
+    margin: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border:2px solid gray;
+    
+}
+
+.btn_section{
+    width:100%;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send_btn{
+    width: 40%;
+    height:54px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+    cursor: pointer;
+    color: white;
+    margin: 6px;
+    background-color: rgb(37, 33, 33);;
+}
+
+
+/**********MEDIA QUOTES (MEDIUM DEVICES)   ***************/
+
+@media screen and (max-width:1024px) 
+{
+  .contact_container{
+    grid-template-columns: 1fr;
+    gap:2rem;
+  }  
+}
+
+
+/************ MEDIA QUOTES (SMALL DEVICES)  ************/
+
+@media screen and (max-width:600px) {
+    .contact_container{
+        width:var(--container-width-5m)
+    }
+}

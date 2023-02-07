@@ -1,0 +1,85 @@
+.skills_container{
+    height:94vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+
+
+.skills_box{
+    border-radius: 50px;
+    background-color: rgb(35, 8, 8);
+    font-family: 'Roboto Slab','Poppins';
+    border:2px;
+    height:50vh;
+    width:80%;
+    background-color:white;
+    color: #5F6F81;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+    
+}
+
+.skillsgrid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    row-gap:12px;
+    column-gap: 6px;
+    
+}
+
+
+.logo_wrapper{
+    height:90px;
+    width:90px;
+    background-color:white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(5, 5, 5, 0.15)  1px 1px 1px 1.6px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    transition: transform 3s ease-out;
+    
+    
+}
+
+
+
+.logo_wrapper:hover
+{
+    
+    color:rgb(180, 131, 223);
+    transform: scale(1.59);
+    box-shadow: rgba(95, 88, 88, 0.15)  1px 1.95px 1.95px 2.6px;
+    
+}
+    
+
+
+
+.logo_name{
+
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+}
+.skills_heading{
+    font-size: 1.6rem;
+}
+
+
+
+.logo_wrapper:hover{
+    transition: transform 200s all;
+}

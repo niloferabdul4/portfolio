@@ -1,0 +1,154 @@
+.intro_container{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:94vh;
+    margin-left: 160px;
+    
+}
+
+
+.intro_left{
+    flex:0.6;                                             /* 50% of  comp is left side  */
+    display: flex;     
+    justify-content: center;  
+    align-items: center;
+                          
+   
+}
+
+
+.introleft_wrapper{
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.hi{
+    
+    
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.name{
+    
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 24px 0;
+}
+
+
+
+.title_items{
+    
+
+    letter-spacing: 1px;
+    color: #5F6F81;
+    font-size: 1.2rem;
+    min-width: 250px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+span{
+    color: #8444df;
+    font-size: 1.3rem;
+}
+
+
+.resume_btn{
+    background-color:rgb(37, 33, 33);
+    height:46px;
+    width:100px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition:transform 50s ease-in-out;
+    
+    
+}
+
+.resume_btn:hover
+{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.intro_right{
+    flex:0.3;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+
+}
+
+.photo{
+    border-radius: 50%;
+    box-shadow: rgba(53, 48, 48, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+
+/*  for animation if needed 
+.intro_title_wrapper
+{
+
+
+    height:100%;
+    animation: move 12s ease-in-out infinite alternate;
+    font-weight: 600;
+     
+}
+
+
+
+@keyframes move{
+    25%{transform: translateY(-50px);}
+    50%{transform: translateY(-100px);}
+    75%{transform: translateY(-150px);}
+    100%{transform: translateY(-200px);}
+}
+
+.title_items{
+
+    height:30px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(133, 51, 133);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+*/
+
+/**********MEDIA QUOTES (MEDIUM DEVICES)   ***************/
+
+@media screen and (max-width:1024px) 
+{
+  .info_container{
+    grid-template-columns: 1fr;
+    gap:2rem;
+  }  
+}
+
+
+/************ MEDIA QUOTES (SMALL DEVICES)  ************/
+
+@media screen and (max-width:600px) {
+    .info_container{
+        width:var(--container-width-5m)
+    }
+}

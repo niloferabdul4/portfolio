@@ -1,0 +1,44 @@
+.about_container{
+    height:94vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+
+
+.about_box{
+    border-radius: 50px;
+    background-color: rgb(35, 8, 8);
+    font-family: 'Roboto';
+    border:2px;
+    height:40vh;
+    width:80%;
+    background-color:white;
+    color: #5F6F81;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+    margin: 30px;
+    line-height: 2;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+    
+}
+
+.about_heading{
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.about_box h4{
+
+
+    text-align: justify;
+    font-size: 1.2rem;
+    
+}
+
