@@ -7,27 +7,24 @@ import Contact from './Components/Contact/contact';
 import Projects from './Components/Projects/projects';
 import Education from './Components/Education/education';
 import Resume from './Components/Resume/resume';
-import './portfolio.css';
-
- 
+import Menubar from './Components/MenuBar/Menubar';
+import './app.css';
 
 function App() {
 
     return (
-      <div className="App">
+      <div className="app">
         <Header />
+        <Menubar />
         <div className='sections'>
-           <Intro />
-           <About />
-           <Skills />
-           <Projects />
-           <Education />
-           <Resume />
-           <Contact />
-        </div>
-      
-            
-        
+            <Intro />
+            <About/>
+            <Skills />
+            <Contact />
+            <Projects />
+            <Education />
+            <Resume /> 
+        </div> 
       </div>
      
     );

@@ -1,31 +1,44 @@
-import React from "react";
+import React,{useContext} from "react";
 import './header.css'
 import {FaLinkedinIn} from "react-icons/fa";
 import {FaFacebookSquare} from "react-icons/fa";
 import {FaInstagramSquare} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
-import MenuIcon from '@mui/icons-material/Menu';
-
+import {GiHamburgerMenu} from 'react-icons/gi'
+import {GrClose} from 'react-icons/gr'
+import AppContext from "../Context/Context";
   
 export default function Header()
 
 {   
 
+    const {menuOpen,setMenuOpen}=useContext(AppContext)
     return(
         <>
         <div className="header_section">
                     < div className='left_section'>
-                                    <div className='social_links'><FaLinkedinIn size={22} color={'tale'}/></div>
-                                    <div className='social_links'><FaFacebookSquare size={21} color={'#1877f2'} /></div>
-                                    <div className='social_links'><FaInstagramSquare size={22} color={'orangered'}/></div>
+                                    <div className='social_links'><FaLinkedinIn size={24} /></div>
+                                    <div className='social_links'><FaFacebookSquare size={24}  /></div>
+                                    <div className='social_links'><FaInstagramSquare size={24} /></div>
                                     <div className='social_links'><FaGithub size={24} /></div>
                     </div> 
 
-                    < div className='right_section'>
-                        <div className="right_section_lists">
-                        </div>
-                        <div className="right_section_hamburger"    >
-                           <MenuIcon />
+                    < div className='right_section'>                        
+                            <div className="right_section_lists">
+                                <ul>
+                                    <li>Projects</li>
+                                    <li>Resume</li>
+                                    <li>Contact</li>
+                                </ul>
+                               
+                            </div>
+                           
+                        <div className={"right_section_hamburger " + (menuOpen && "active")}     >
+                        
+                          {menuOpen? (<GrClose size={24} backgroundColor={'white'} onClick={()=>setMenuOpen(false)}/>): (<GiHamburgerMenu  size={24} onClick={()=>setMenuOpen(true)}/>)}
+                            
+                        
+                         
                         </div>
                        
                     </div>  

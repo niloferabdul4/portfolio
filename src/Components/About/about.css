@@ -1,11 +1,14 @@
 .about_container{
-    height:94vh;
+ 
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
-    padding: 20px;
+    padding: 20px;    
+    width: 100%;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+
 }
 
 
@@ -16,7 +19,7 @@
     font-family: 'Roboto';
     border:2px;
     height:40vh;
-    width:80%;
+    width:60%;
     background-color:white;
     color: #5F6F81;
     display:flex;

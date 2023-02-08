@@ -1,17 +1,35 @@
-import React from 'react';
+import React,{useEffect,useRef} from 'react';
 import './intro.css'
+import { init } from 'ityped';
+import image from '../../assets/web-development.png';
 
 export default function Intro(){
+    const textRef=useRef(null)
+    useEffect(()=>{init(textRef.current, { showCursor: false,
+        backDelay:1500,
+        backSpeed:80,
+        strings: ["Front End Developer", "React JS Developer"],
+        })},[])
     return (
 
        
         <div className='intro_container' id='intro'>                           
                <div className='intro_wrapper'>
+                  
+                  <div className='intro_left'>
+                     <img className='vector_image' src={image} alt=''/>
+
+                  </div>
+                  <div className='intro_right'>
                     <h2>HI THERE! I'M</h2>
                     <h1> NILOFER ABDUL</h1>                                           
-                       <p className='title_items'> A <span>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
-                                 
-                   <button className='resume_btn' >Resume</button>
+                    <p className='title_items'> 
+                        <span ref={textRef}></span>
+                        </p>                                 
+                    <button className='resume_btn' >Resume</button>
+
+                  </div>
+
                 </div>
                
             </div>
