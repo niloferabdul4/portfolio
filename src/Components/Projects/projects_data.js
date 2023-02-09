@@ -1,6 +1,7 @@
 import ecommerce from "../../assets/amazon-homepage.png";
 import fb from '../../assets/fb-clone.jpg'
-
+import recipe from '../../assets/recipe.png'
+import quiz from '../../assets/quiz.jpg'
 
 const projects_data = [{
     id:1,
@@ -21,15 +22,15 @@ const projects_data = [{
     title:'Recipe Finder App',
     description: 'Implemented using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/recipeapp.git',
-    image:ecommerce
+    image:recipe
    
 },
 {
     id:4,
     title:'Quiz App',
     description: 'Implemented using React Js core topics like Context API React Hooks',
-    url: 'https://github.com/niloferabdul4/eshop.git',
-    image:fb
+    url: 'https://github.com/niloferabdul4/quiz_app.git',
+    image:quiz
   
 },{
     id:5,

@@ -1,0 +1,46 @@
+.edu_container{
+ 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;    
+    width: 100%;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+
+}
+
+
+
+.edu_box{
+    border-radius: 50px;
+    background-color: rgb(35, 8, 8);
+    font-family: 'Roboto';
+    border:2px;
+    height:30vh;
+    width:60%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+    margin: 30px;
+    line-height: 2;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+    
+}
+
+.edu_heading{
+    font-size: 1.6rem;
+    text-align: left;
+}
+table{
+    border:1px solid black;
+    width:100%;
+  }
+  th,td{
+   padding:15px;
+   border:1px solid black;
+   font-size: 1.2rem;
+  }

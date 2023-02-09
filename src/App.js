@@ -10,8 +10,8 @@ import Resume from './Components/Resume/resume';
 import Menubar from './Components/MenuBar/Menubar';
 import './app.css';
 
-function App() {
 
+function App() {
     return (
       <div className="app">
         <Header />
@@ -23,8 +23,8 @@ function App() {
             <Skills />
             <Contact />
             <Education />
-            <Resume /> 
-        </div> 
+            <Resume />             
+        </div>
       </div>
      
     );

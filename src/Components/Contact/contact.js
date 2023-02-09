@@ -53,7 +53,7 @@ export default function Contact(){
                 <div className="option">
                     <BsFillTelephoneFill />
                     <h4>Phone</h4>
-                    <a href='9715023026=583'>971502302583</a>
+                    <a href='9715023026583'>971502302583</a>
                 </div>
 
 
