@@ -5,14 +5,14 @@ import fb from '../../assets/fb-clone.jpg'
 const projects_data = [{
     id:1,
     title:'E-Commerce App',
-    description: 'Implemented using React Js core topics like Context API React Hooks',
-    link: 'https://github.com/niloferabdul4/eshop.git',
+    description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
+    url: 'https://github.com/niloferabdul4/eshop.git',
     image:ecommerce
   
 },{
     id:2,
     title:'Social Media Clone App ',
-    description: 'Implemented using React Js core topics like Context API React Hooks',
+    description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
     url: 'https://github.com/niloferabdul4/facebookclone.git',
     image:fb
  

@@ -5,10 +5,8 @@ import {MdEmail} from 'react-icons/md'
 import {FaFacebookMessenger} from 'react-icons/fa'
 
 import {BsFillTelephoneFill} from 'react-icons/bs'
-
 import {useRef} from 'react'
 import emailjs from 'emailjs-com'
-
 import './contact.css'
 
 export default function Contact(){

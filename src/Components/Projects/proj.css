@@ -2,19 +2,22 @@
 
     display:flex;
     flex-direction: column; 
-    padding: 100px;
+    padding: 50px;
     width: 100vw;
     min-height: calc(100vh - 70px);
-    margin:10px 60px;
     scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  
 }
 .projects_container{
     display:grid;
     grid-template-columns: repeat(4,1fr);
     gap:10px;
-    margin:50px;
-
+    margin:10px 60px;
+    min-height: 100vh;
+    padding: 60px;
 }
 
 .proj_card
@@ -25,13 +28,30 @@
     border-radius: 10px;
     background-color: white;
     margin: 10px;
-    min-height: 200px;
-    
+    min-height: 400px;;
+    cursor:pointer;
+    position: relative;
+    transition: all 0.5s ease-in-out;
 }
+
+.proj_card:hover .source_btn{
+   
+    opacity: 1;
+}
+
+.proj_card:hover {
+ 
+  background-color:#D3D3D3;
+}
+.proj_card:hover .proj_image {
+  opacity:0.95;
+}
+
 .image_container{
 
     width:100%;
-    margin:0px 20px;
+  
+    
 }
 
 .proj_title{
@@ -44,31 +64,35 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap:30px;
-        background-color: rgba(0,0,0,0.1);
-        transition: all 0.5s ease;
-        opacity:0;
+        gap:30px;   
+        text-align: justify;
+        line-height: 30px;
+      
 }
 
 .proj_image{
     width:100%;
     height:200px;
-   
+    opacity: 1;
+    
 }
 .source_btn{
-    background-color:rgb(84, 80, 80);
     height:50px;
     width:100px;
     border-radius: 10px;
+    background-color: darkgrey;
     margin: 20px;
-    color: white;
     letter-spacing: 2px;
     font-size: 1.02rem;
     font-weight: 400;
-    transition:transform 50s ease-in-out;
-    align-self: center;
+    transition:transform 20s ease-in-out;
+    position:absolute;
+    left:30%;
+    top:30%;
+    z-index: 1;
+    opacity:0;
+    font-weight: 600;;
+  
 }
 
-.source_btn>a{
-    color:white;
-}
+
