@@ -1,7 +1,12 @@
 import React,{useEffect,useRef} from 'react';
 import './intro.css'
 import { init } from 'ityped';
+import { Carousel } from 'react-responsive-carousel';
 import image from '../../assets/web-development.png';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from '../Slider/Slider';
+
 
 export default function Intro(){
     const textRef=useRef(null)
@@ -14,23 +19,29 @@ export default function Intro(){
 
        
         <div className='intro_container' id='intro'>                           
-               <div className='intro_wrapper'>
-                  
+               <div className='intro_top'>                  
                   <div className='intro_left'>
                      <img className='vector_image' src={image} alt=''/>
-
-                  </div>
-                  <div className='intro_right'>
-                    <h2>HI THERE! I'M</h2>
-                    <h1> NILOFER ABDUL</h1>                                           
-                    <p className='title_items'> 
-                        <span ref={textRef}></span>
-                        </p>                                 
-                    <button className='resume_btn' >Resume</button>
-
-                  </div>
-
+                   </div>   
+                   <div className='intro_right'>
+                        <h2>HI THERE! I'M</h2>
+                        <h1> NILOFER ABDUL</h1>                                           
+                        <p className='title_items'> 
+                            <span ref={textRef}></span>
+                         </p>  
+                         <span className='btn_container'>
+                            <button className='resume_btn' >Resume</button> 
+                            <button className='resume_btn' >Projects</button>        
+                        </span>                               
+                                                                 
+                   </div>
+                                                
+               </div>   
+                
+                <div className='intro_bottom'>                     
+                   <Slider />
                 </div>
+                
                
             </div>
                         
