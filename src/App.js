@@ -5,7 +5,6 @@ import About from './Components/About/about';
 import Skills from './Components/Skills/skills';
 import Contact from './Components/Contact/contact';
 import Projects from './Components/Projects/projects';
-import Education from './Components/Education/education';
 import Resume from './Components/Resume/resume';
 import Menubar from './Components/MenuBar/Menubar';
 import './app.css';
@@ -22,7 +21,6 @@ function App() {
             <Projects />
             <Skills />
             <Contact />
-            <Education />
             <Resume />             
         </div>
       </div>
