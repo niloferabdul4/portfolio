@@ -22,9 +22,7 @@
    
     
 }
-.contact_options{
-    
-    /*flex:0.8;*/
+.contact_options{    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -60,7 +58,7 @@
 .form_container
 {
     flex:0.5;
-    height:70vh;
+    height:80vh;
     font-weight: 400;
     font-family: 'Roboto';
     background-color: white;

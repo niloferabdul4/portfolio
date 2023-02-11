@@ -16,12 +16,15 @@ function App() {
         <Header />
         <Menubar />
         <div className='sections'>
-            <Intro />
-            <About/>
-            <Projects />
-            <Skills />
-            <Contact />
-            <Resume />             
+         
+              <Intro />
+              <Projects />
+              <About/>
+              <Skills />
+              <Contact />
+              <Resume />   
+      
+                     
         </div>
       </div>
      

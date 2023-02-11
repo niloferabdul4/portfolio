@@ -29,8 +29,12 @@
     cursor: pointer;
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;
+ 
     
     
+}
+.social_links>a{
+    color:WHITE;
 }
 
 .social_links:hover
@@ -74,5 +78,10 @@
 }
 .right_section_lists>ul>li{
     padding:10px;
+   
+ 
 }
-
+.right_section_lists>ul>li>a{
+    color:white;
+    
+}

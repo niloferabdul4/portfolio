@@ -1,13 +1,16 @@
 import ecommerce from "../../assets/amazon-homepage.png";
-import fb from '../../assets/fb-clone.jpg'
+import facebook1 from '../../assets/facebook1.png' 
 import recipe from '../../assets/recipe.png'
-import quiz from '../../assets/quiz.jpg'
+import quiz from '../../assets/quiz.png'
+import tenzies from '../../assets/tenzies.jpg'
+import portfolio from '../../assets/portfolio.png'
 
-const projects_data = [{
+
+ const projects_data = [{
     id:1,
     title:'E-Commerce App',
     description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
-    url: 'https://github.com/niloferabdul4/eshop.git',
+    url: 'https://github.com/niloferabdul4/eshop.git',   
     image:ecommerce
   
 },{
@@ -15,10 +18,21 @@ const projects_data = [{
     title:'Social Media Clone App ',
     description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
     url: 'https://github.com/niloferabdul4/facebookclone.git',
-    image:fb
+    demo:'https://socialmediaapp-d705d.web.app/',
+    image:facebook1
  
-},{
+},
+{
     id:3,
+    title:'Personal Portfolio',
+    description: 'Implemented using React Js core topics like Context API React Hooks',
+    url: 'https://github.com/niloferabdul4/portfolio.git',
+    image:portfolio
+   
+},
+
+{
+    id:4,
     title:'Recipe Finder App',
     description: 'Implemented using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/recipeapp.git',
@@ -26,27 +40,21 @@ const projects_data = [{
    
 },
 {
-    id:4,
+    id:5,
     title:'Quiz App',
     description: 'Implemented using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/quiz_app.git',
     image:quiz
   
 },{
-    id:5,
-    title:'Social Media Clone App ',
-    description: 'Implemented using React Js core topics like Context API React Hooks',
-    url: 'https://github.com/niloferabdul4/facebookclone.git',
-    image:fb
- 
-},{
     id:6,
-    title:'Recipe Finder App',
+    title:'Tenzies Game',
     description: 'Implemented using React Js core topics like Context API React Hooks',
-    url: 'https://github.com/niloferabdul4/recipeapp.git',
-    image:ecommerce
-   
-}
+    url: 'https://github.com/niloferabdul4/tenziesgame.git',
+    image:tenzies
+ 
+},
 ];
 
 export default projects_data;
+

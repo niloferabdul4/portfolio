@@ -64,16 +64,6 @@ export default function Menubar() {
           </a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
-          <a href="#education">
-          <div className='span_icon'>
-              <FaUserGraduate />                        
-          </div>
-          <div className='span_name'>
-               Education
-          </div>   
-          </a>
-        </li>
-        <li onClick={()=>setMenuOpen(false)}>
           <a href="#contact">
           <div className='span_icon'>
               <FaPhoneAlt />                        
