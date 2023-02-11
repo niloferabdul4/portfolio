@@ -19,16 +19,24 @@ export default function Header()
                     < div className='left_section'>
                                     <div className='social_links'><FaLinkedinIn size={24} /></div>
                                     <div className='social_links'><FaFacebookSquare size={24}  /></div>
-                                    <div className='social_links'><FaInstagramSquare size={24} /></div>
-                                    <div className='social_links'><FaGithub size={24} /></div>
+                                    <div className='social_links'>
+                                        <a><FaInstagramSquare size={24} /></a>
+                                    </div>
+
+                                    <div className='social_links'>
+                                      <a href='https://github.com/niloferabdul4'>
+                                          <FaGithub size={24} />
+                                      </a>
+                                          
+                                    </div>
                     </div> 
 
                     < div className='right_section'>                        
                             <div className="right_section_lists">
                                 <ul>
-                                    <li>Projects</li>
-                                    <li>Resume</li>
-                                    <li>Contact</li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a href="#resume">Resume</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
                                
                             </div>
