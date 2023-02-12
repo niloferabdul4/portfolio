@@ -2,6 +2,7 @@ import React,{useEffect,useRef} from 'react';
 import './intro.css'
 import { init } from 'ityped';
 import image from '../../assets/web-development.png';
+import Social from './Social';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from '../Slider/Slider';
@@ -22,6 +23,31 @@ export default function Intro(){
                <div className='intro_wrapper'>                  
                   <div className='intro_left'>
                      <img className='vector_image' src={image} alt=''/>
+                     < div className='intro_left_social'>
+                     {Social &&
+          Social.map((social) => ( <div className='social_links' >
+            <a href={social.iconLink} key={social.id}>
+              {social.iconName}
+            </a>
+            </div>
+          ))}
+{/*
+                                    <div className='social_links'><FaLinkedinIn size={26} /></div>
+                                    <div className='social_links'><FaFacebookSquare size={26}  /></div>
+                                    <div className='social_links'>
+                                        <a><FaInstagramSquare size={26} /></a>
+                                    </div>
+
+                                    <div className='social_links'>
+                                      <a href='https://github.com/niloferabdul4'>
+                                          <FaGithub size={26} />
+                                      </a>
+                                          
+                                    </div>
+          */}
+                    </div> 
+      
+        
                    </div>   
                    <div className='intro_right'>
                         <h2>HI THERE! I'M</h2>
