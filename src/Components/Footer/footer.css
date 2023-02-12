@@ -1,0 +1,46 @@
+footer{
+   background-color: rgb(37, 33, 33);
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1.2rem 0;
+}
+
+.footer_title{
+    font-size: 1.5rem;
+    margin-bottom:20px;
+}
+
+.footerSocial{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footersocial_links{
+
+    margin-right: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;  
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.footersocial_links>a{
+    color:white;
+}
+
+.footersocial_links:hover
+{
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.copy_right{
+    font-family: 'Poppins';
+}

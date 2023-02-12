@@ -1,27 +1,48 @@
 import React from "react";
-
-import {MdEmail} from 'react-icons/md'
-
-import {FaFacebookMessenger} from 'react-icons/fa'
-
-import {BsFillTelephoneFill} from 'react-icons/bs'
 import {useRef} from 'react'
-import emailjs from 'emailjs-com'
+import { auth } from "../../firebase/firebase";
+import { sendSignInLinkToEmail } from "firebase/auth";
+
 import './contact.css'
 
 export default function Contact(){
 
-    const form=useRef();
+    const inputRef=useRef();
+    const email=document.getElementById('email').value
 
-    const sendEmail = (e) => {
+    const actionCodeSettings = {
+        // URL you want to redirect back to. The domain (www.example.com) for this
+        // URL must be in the authorized domains list in the Firebase Console.
+        url: 'https://www.example.com/finishSignUp?cartId=1234',
+        // This must be true.
+        handleCodeInApp: true,
+        iOS: {
+          bundleId: 'com.example.ios'
+        },
+        android: {
+          packageName: 'com.example.android',
+          installApp: true,
+          minimumVersion: '12'
+        },
+        dynamicLinkDomain: 'example.page.link'
+      };
+    const handleSubmit = (e) => {
         e.preventDefault();
-    
-        emailjs.sendForm('service_su4rtpa', 'template_hhlgiwr', form.current, 'KKL5oSjT99l4p5WxD')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
+   
+sendSignInLinkToEmail(auth, email, actionCodeSettings)
+  .then(() => {
+    // The link was successfully sent. Inform the user.
+    // Save the email locally so you don't need to ask the user for it again
+    // if they open the link on the same device.
+    window.localStorage.setItem('emailForSignIn', email);
+    // ...
+  })
+  .catch((error) => {
+    console.log(error.message)
+    // ...
+  });
+     
+
       };
     
 
@@ -32,7 +53,7 @@ export default function Contact(){
             <h2>Contact Me</h2>
 
         <div className="contact_container">
-
+{/*
             <article className="contact_options">
 
                 <div className="option">
@@ -41,30 +62,22 @@ export default function Contact(){
                     <h5>niloferabdul4@gmail.com</h5>
                     <a href='mailto:niloferabdul@gmail.com'>Send A Message</a>
                 </div>
-
                 <div className="option">
                     <FaFacebookMessenger />
                     <h4>Messenger</h4>
                     <h5>niloferabdul4@gmail.com</h5>
                     <a href='mailto:niloferabdul@gmail.com'>Send A Message</a>
                 </div>
-
-
                 <div className="option">
                     <BsFillTelephoneFill />
                     <h4>Phone</h4>
                     <a href='9715023026583'>971502302583</a>
                 </div>
-
-
-
             </article>
 
+    */}       
 
-        
-
-
-        <form ref={form} onSubmit={sendEmail} className="form_container">    
+        <form ref={inputRef} onSubmit={handleSubmit} className="form_container">    
              <div className="name_email">
 
                <label for ='name' className="label"  >Name*</label>
@@ -82,7 +95,7 @@ export default function Contact(){
             </div>
 
             <div className="btn_section">
-                <button type='submit' className="send_btn" >Send Message</button>
+                <button type='submit' className="send_btn"  >Send Message</button>
             </div>
      </form>
 </div>

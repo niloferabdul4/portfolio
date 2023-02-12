@@ -8,6 +8,8 @@ import Projects from './Components/Projects/projects';
 import Resume from './Components/Resume/resume';
 import Menubar from './Components/MenuBar/Menubar';
 import './app.css';
+import Footer from './Components/Footer/Footer';
+
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
               <Skills />
               <Contact />
               <Resume />   
-      
+              <Footer />
                      
         </div>
       </div>

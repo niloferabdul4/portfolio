@@ -1,9 +1,5 @@
 import React,{useContext} from "react";
 import './header.css'
-import {FaLinkedinIn} from "react-icons/fa";
-import {FaFacebookSquare} from "react-icons/fa";
-import {FaInstagramSquare} from "react-icons/fa";
-import {FaGithub} from "react-icons/fa";
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {GrClose} from 'react-icons/gr'
 import AppContext from "../Context/Context";
@@ -16,20 +12,7 @@ export default function Header()
     return(
         <>
         <div className="header_section">
-                    < div className='left_section'>
-                                    <div className='social_links'><FaLinkedinIn size={24} /></div>
-                                    <div className='social_links'><FaFacebookSquare size={24}  /></div>
-                                    <div className='social_links'>
-                                        <a><FaInstagramSquare size={24} /></a>
-                                    </div>
-
-                                    <div className='social_links'>
-                                      <a href='https://github.com/niloferabdul4'>
-                                          <FaGithub size={24} />
-                                      </a>
-                                          
-                                    </div>
-                    </div> 
+                    
 
                     < div className='right_section'>                        
                             <div className="right_section_lists">

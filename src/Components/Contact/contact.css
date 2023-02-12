@@ -6,9 +6,10 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content:center;
     padding:30px 0px;
     font-family: 'Roboto';
+   
 }
 
 
@@ -17,100 +18,65 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    width:100%;
     gap:100px;
-   
+    background-color:white;
+    height:70vh;
+    width:30%;
+    margin:50px;
+    padding: 60px;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+    border-radius: 10px;
     
 }
-.contact_options{    
+.form_container
+{
+    width:100%;
+    font-weight: 400;
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-}
-
-.option{
-    background-color: white;
-    margin:30px;
-    border-radius:10px;
-    padding:20px;
-    height:160px;
-    width:260px;
-    line-height: 30px;
-    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.option > a{
-    font-size: 14px;
-}
-
-.option:hover{
-    background: transparent;
-    transition: transform 3s all;
-    border-color: var(--color-primary-variant);
-}
-.form_container
-{
-    flex:0.5;
-    height:80vh;
-    font-weight: 400;
-    font-family: 'Roboto';
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
     color: black;   
-    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+
 }
 
 
 .name_email{
     
     display: grid;
-    width:80%;    
+    width:100%;    
     align-items: center;
     }
 
 .input {
-    width:100%;
-    height:50px;
+  
+    height:40px;
     color:rgb(37, 33, 33);
     text-indent: 20px;
-    margin: 20px;
-    border:2px solid gray;
-    
-    
+    border:1px solid lightgray;
+    margin: 30px 0px;    
 }
 
 
 .textarea_section
-{
-    
+{    
     display: grid;    
-    width:80%;
+    width:100%;
 }
 
 
 .textarea{
-    width:100%;
-    height:150px;
+  
+    height:130px;
     color:rgb(37, 33, 33);
     text-indent: 20px;
     line-height: 40px;
-    margin: 20px;
+    margin: 30px 0px;
     word-wrap: break-word;
     word-break: break-all;
-    border:2px solid gray;
-    
+    border:1px solid lightgray;
+    resize: none;
 }
 
 .btn_section{
@@ -123,9 +89,9 @@
 
 .send_btn{
     width: 40%;
-    height:54px;
+    height:50px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     font-family: 'Roboto';
     cursor: pointer;
