@@ -5,7 +5,6 @@ import image from '../../assets/web-development.png';
 import Social from './Social';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from '../Slider/Slider';
 
 
 export default function Intro(){

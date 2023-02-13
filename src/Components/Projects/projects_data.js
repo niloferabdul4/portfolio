@@ -19,7 +19,7 @@ import portfolio from '../../assets/portfolio.png'
     title:'Social Media Clone App ',
     description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
     url: 'https://github.com/niloferabdul4/facebookclone.git',
-    demo:'https://socialmediaapp-d705d.web.app/',
+    demo:'https://socialmediaapp-d705d.web.app',
     image:facebook1
  
 },
