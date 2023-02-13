@@ -1,4 +1,4 @@
-import ecommerce from "../../assets/amazon-homepage.png";
+import ecommerce from "../../assets/ecommerce.png";
 import facebook1 from '../../assets/facebook1.png' 
 import recipe from '../../assets/recipe.png'
 import quiz from '../../assets/quiz.png'
@@ -10,7 +10,8 @@ import portfolio from '../../assets/portfolio.png'
     id:1,
     title:'E-Commerce App',
     description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
-    url: 'https://github.com/niloferabdul4/eshop.git',   
+    url: 'https://github.com/niloferabdul4/eshop.git', 
+    demo:'https://ecommerce-app-fac17.web.app/'  ,
     image:ecommerce
   
 },{
