@@ -31,20 +31,7 @@ export default function Intro(){
             </a>
             </div>
           ))}
-{/*
-                                    <div className='social_links'><FaLinkedinIn size={26} /></div>
-                                    <div className='social_links'><FaFacebookSquare size={26}  /></div>
-                                    <div className='social_links'>
-                                        <a><FaInstagramSquare size={26} /></a>
-                                    </div>
 
-                                    <div className='social_links'>
-                                      <a href='https://github.com/niloferabdul4'>
-                                          <FaGithub size={26} />
-                                      </a>
-                                          
-                                    </div>
-          */}
                     </div> 
       
         

@@ -18,9 +18,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap:100px;
     background-color:white;
-    height:70vh;
+    height:75vh;
     width:30%;
     margin:50px;
     padding: 60px;
@@ -37,7 +37,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: black;   
+    color: black; 
+    position:relative;  
 
 }
 
@@ -98,6 +99,16 @@
     color: white;
     margin: 6px;
     background-color: rgb(37, 33, 33);;
+}
+
+.sent_msg{
+    background-color: gray;
+    color:white;
+    padding: 10px 60px;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    top:50%;
 }
 
 

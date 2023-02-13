@@ -18,12 +18,12 @@ const Social = [
     {
       id: 1,
       iconName: <FaFacebookF />,
-      iconLink: "#",
+      iconLink: "https://www.facebook.com/nilofer.abdul/",
     },
     {
       id: 2,
       iconName: <FaInstagram />,
-      iconLink: "#",
+      iconLink: "https://www.instagram.com/niloferabdul/",
     },
     {
       id: 3,
@@ -38,12 +38,12 @@ const Social = [
     {
       id: 5,
       iconName: <FaLinkedinIn />,
-      iconLink: "#",
+      iconLink: "https://www.linkedin.com/in/nilofer-abdul-06618b266/",
     },
     {
       id: 6,
       iconName: <FaGithub />,
-      iconLink: "#",
+      iconLink: "https://github.com/niloferabdul4",
     },
   ];
   
