@@ -9,7 +9,7 @@ import Resume from './Components/Resume/resume';
 import Menubar from './Components/MenuBar/Menubar';
 import './app.css';
 import Footer from './Components/Footer/Footer';
-
+import app from './firebase/firebase';
 
 
 function App() {
