@@ -1,6 +1,6 @@
 import ecommerce from "../../assets/ecommerce.png";
 import facebook1 from '../../assets/facebook1.png' 
-import recipe from '../../assets/recipe.png'
+import recipe from '../../assets/recipes.png'
 import quiz from '../../assets/quiz.png'
 import tenzies from '../../assets/tenzies.jpg'
 import portfolio from '../../assets/portfolio.png'
@@ -38,6 +38,7 @@ import portfolio from '../../assets/portfolio.png'
     title:'Recipe Finder App',
     description: 'Implemented using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/recipeapp.git',
+    demo:'https://recipefinder-app.netlify.app/',
     image:recipe
    
 },

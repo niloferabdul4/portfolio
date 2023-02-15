@@ -15,7 +15,7 @@ const Project = ({projectItem}) => {
 
                 </div>
                 <div className='info_container'>
-                <p>{projectItem.description}</p>
+                <p className='description'>{projectItem.description}</p>
                 <span style={{display:'flex',flexDirection:'row', justifyContent:'center'}}>
                     <a href={projectItem.url}>
                         <button className='btn'>                

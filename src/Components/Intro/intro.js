@@ -2,7 +2,7 @@ import React,{useEffect,useRef} from 'react';
 import './intro.css'
 import { init } from 'ityped';
 import image from '../../assets/web-development.png';
-import Social from './Social';
+import Social from '../Header/Social';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -21,17 +21,9 @@ export default function Intro(){
         <div className='intro_container' id='intro'>                           
                <div className='intro_wrapper'>                  
                   <div className='intro_left'>
-                     <img className='vector_image' src={image} alt=''/>
-                     < div className='intro_left_social'>
-                     {Social &&
-          Social.map((social) => ( <div className='social_links' >
-            <a href={social.iconLink} key={social.id}>
-              {social.iconName}
-            </a>
-            </div>
-          ))}
+                     <img className='vector_image' src={image} alt=''/>                   
 
-                    </div> 
+                 
       
         
                    </div>   
@@ -43,10 +35,10 @@ export default function Intro(){
                          </p>  
                          <span className='btn_container'>
                            <a href='#resume'>
-                                <button className='resume_btn' >Resume</button>  
+                                <button className='intro_btn' >Resume</button>  
                             </a>
                             <a href='#projects'>
-                                <button className='resume_btn' >Projects</button>  
+                                <button className='intro_btn' >Projects</button>  
                             </a>      
                         </span> 
                         {/*

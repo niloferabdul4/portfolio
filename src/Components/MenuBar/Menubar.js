@@ -1,6 +1,5 @@
 import React from 'react';
 import './menu.css'
-
 import {FaHome,
         FaUserAlt,
         FaPhoneAlt,

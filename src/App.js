@@ -16,8 +16,7 @@ function App() {
       <div className="app">
         <Header />
         <Menubar />
-        <div className='sections'>
-         
+        <div className='sections'>         
               <Intro />
               <Projects />
               <About/>

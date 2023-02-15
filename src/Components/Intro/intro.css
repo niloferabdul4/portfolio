@@ -6,6 +6,8 @@
     display:flex;
     flex-direction: column;
     margin:50px 100px;
+
+   
 }
 
 
@@ -13,57 +15,23 @@
     width:100%;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
- 
+   
+}
+
+.intro_left{
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;;
+   
+  
 }
 
 .vector_image{
     width:90%;
-}
-    
-.intro_left_social{
- 
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    /*padding: 60px;*/
- 
-}
-
-.social_links{
-
-    margin-right: 20px;
-    justify-content: space-between;
-    cursor: pointer;
-    -webkit-transition-duration: 0.25s;
-    transition-duration: 0.25s;  
-    padding: 20px;
-    font-size: 1.5rem;
-}
-
-.social_links>a{
-    color:black;
-}
-
-.social_links:hover
-{
-    transform: scale(1.3);
-    transition: transform 0.3s ease-in-out;
-}
-
-
-
-.intro_top>h2{
-    letter-spacing: 1px;
-    font-weight: 600;
-    line-height: 1.6;
-  }
-
-.intro_top>h1{    
-    font-family: 'Roboto';
-    letter-spacing: 2px;
-    margin: 24px 0;
 }
 
 .title_items{    
@@ -72,14 +40,6 @@
     font-weight: 600;
     color: #6639a5;
     font-size: 1.5rem;
-}
-.intro_left{
-    flex:0.5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 100px;;
-  
 }
 
 .btn_container{
@@ -95,7 +55,7 @@
     justify-content: flex-start;
 }
 
-.resume_btn{
+.intro_btn{
     background-color: #6639a5;
     height:50px;
     width:120px;
@@ -106,17 +66,16 @@
     font-size: 1.01rem;
     font-weight: 400;
     transition:transform 100s ease-in-out;
-    
-    
+      
 }
 
-.resume_btn:hover
+.intro_btn:hover
 {
     
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
-.resume_btn>a{
+.intro_btn>a{
     color:white;
 }
 
@@ -126,6 +85,7 @@
     flex-direction: column;
     justify-content: center;
     gap:20px; 
+    
 }
 
 
@@ -192,39 +152,64 @@
 
 /**********MEDIA QUOTES (MEDIUM DEVICES)   ***************/
 
-@media screen and (max-width:1024px) 
-{
-  
- 
-}
 
 
 /************ MEDIA QUOTES (SMALL DEVICES)  ************/
 
-@media screen and (max-width:600px) {
-    .intro_wrapper{   
-        width:100%;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-     
+@media screen and (max-width:480px) {
+    .intro_container{
+        margin:30px 0px ;
+    
     }
-    .intro_left{
-        flex:0.5;
+  .intro_wrapper{
+    display:flex;
+    flex-direction: row; 
+    justify-content: center; 
+    padding-left:100px;
+   
+  }  
+ 
+   .intro_left
+   {
+   display: none;
+   }
+  
+    .intro_right{
+        flex:1;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-right: 100px;;
-      
+        flex-direction: column;
+        justify-content: center;        
+        
+    }
+    .intro_right>h2{
+        font-size: 14px;
+    }
+    .intro_right>h1{
+        font-size: 22px;
+    }
+    .title_items{    
+        min-height: 40px;   
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #6639a5;
+        font-size: 1.1rem;
     }
     
-    .intro_left_social{
- 
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        /*padding: 60px;*/
-     
+    .intro_btn{
+        
+        height:40px;
+        width:90px;
+        border-radius: 12px;
+        margin: 0px 10px 0px 0px;
+        color: white;
+        letter-spacing: 2px;
+        font-size: 0.85rem;
+      
+        
     }
+
+  
+
+    
+    
 }

@@ -1,5 +1,4 @@
-.about_container{
- 
+.about_container{ 
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +9,6 @@
     scroll-snap-align: start;
 
 }
-
 
 
 .about_box{
@@ -26,16 +24,12 @@
     justify-content: center;
     align-items: center;
     padding:40px;
-    margin: 30px;
+    margin:50px;
     line-height: 2;
     box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
     
 }
 
-.about_heading{
-    font-size: 1.6rem;
-    text-align: left;
-}
 
 .about_box h4{
 
@@ -45,3 +39,38 @@
     
 }
 
+/*******  Responsive  ****************/
+
+@media only screen and (max-width: 480px){
+.about_container{
+    
+    box-shadow: none;
+    margin:10px 0px ;
+    justify-content: center;
+   
+   
+}
+   .about_box{   
+    width: 100%;
+    height:70vh;
+    border-radius: 0px;
+    background-color:rgba(237, 230, 230, 0.708) ;
+    box-shadow: none;
+    margin: 30px 0px;   
+    padding: 10px;
+   }
+   
+.about_heading{
+    font-size: 20px;
+   
+}
+
+.about_box h4{
+
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 40px;;
+    
+}
+}

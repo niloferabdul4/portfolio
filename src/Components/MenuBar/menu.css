@@ -1,13 +1,12 @@
 
-.menu{
-  
-    background-color:rgb(37, 33, 33);
+.menu{  
+    background-color:darkslateblue;
     color:white;
     font-family: 'Poppins' sans-serif;
     width: 240px;
     height: 100vh;
     position: fixed;
-    top: 0;
+    top: 70px;
     right: -240px;
     z-index: 2;
     display: flex;
@@ -101,3 +100,28 @@ li:hover
 }
 
 */
+
+@media screen and (max-width:480px) {
+    .menu{
+
+      width:140px;
+      right:-140px;
+      top:50px;
+    }  
+  .active {
+    right: 0;
+  }
+  
+.menu>ul>li{
+    margin:25px 0px;
+    padding:5px;
+    font-size: 0.90rem;
+}
+.menu>ul>li>a{
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+
+}

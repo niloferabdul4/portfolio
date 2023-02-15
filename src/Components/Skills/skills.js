@@ -7,12 +7,12 @@ const Skills=()=>{
     return(
         <>
         <div className="skills_container" id='skills'>
-            <h2 className='skills_heading'>SKILLS</h2>
+            <h2 className='skills_heading'>Skills</h2>
 
             <div className="skills_box">
                 <ul>
             { skills_data.map(item=>{return <li key={item.id}>
-                        <img src={item.image} alt="" height={60} width={60}/>
+                        <img src={item.image} className='logo' alt="" height={60} width={60}/>
                         <p className="logo_name">{item.name}</p>
 
                         </li>})
