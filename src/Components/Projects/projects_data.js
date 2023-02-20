@@ -47,6 +47,7 @@ import portfolio from '../../assets/portfolio.png'
     title:'Quiz App',
     description: 'Implemented using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/quiz_app.git',
+    demo:'https://quizes-123.netlify.app/',
     image:quiz
   
 },{
@@ -54,6 +55,7 @@ import portfolio from '../../assets/portfolio.png'
     title:'Tenzies Game',
     description: 'Implemented using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/tenziesgame.git',
+    demo:'https://tenzies-game123.netlify.app',
     image:tenzies
  
 },
