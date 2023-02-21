@@ -28,7 +28,7 @@ import portfolio from '../../assets/portfolio.png'
     title:'Personal Portfolio',
     description: 'Implemented using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/portfolio.git',
-    demo:'https://portfolio-awesome.netlify.app/',
+    demo:'https://personal-portfolio-2995d.web.app/',
     image:portfolio
    
 },
