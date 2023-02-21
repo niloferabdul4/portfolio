@@ -9,7 +9,7 @@ import portfolio from '../../assets/portfolio.png'
  const projects_data = [{
     id:1,
     title:'E-Commerce App',
-    description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
+    description:' A fully responsive e-commerce web app.Front-end made with HTML, CSS, React core concepts like Hooks, Context API, and Styled Components Integrated Firebase for Authentication and database. Added functionality such as add to cart, filters, fetch API, etc',
     url: 'https://github.com/niloferabdul4/eshop.git', 
     demo:'https://ecommerce-app-fac17.web.app/'  ,
     image:ecommerce
@@ -17,7 +17,7 @@ import portfolio from '../../assets/portfolio.png'
 },{
     id:2,
     title:'Social Media Clone App ',
-    description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components. Used Firebase for authentication and database.',
+    description: 'Built using HTML and React JS core Concepts like Hooks, Router, Context API and styled components.Integrated Firebase for Google Authentication and database. Added functionality such as like, comment, upload files, etc',
     url: 'https://github.com/niloferabdul4/facebookclone.git',
     demo:'https://socialmediaapp-d705d.web.app',
     image:facebook1
@@ -26,7 +26,7 @@ import portfolio from '../../assets/portfolio.png'
 {
     id:3,
     title:'Personal Portfolio',
-    description: 'Implemented using React Js core topics like Context API React Hooks',
+    description: 'Implemented using React Js core topics like Context API React Hooks,HTML and CSS',
     url: 'https://github.com/niloferabdul4/portfolio.git',
     demo:'https://personal-portfolio-2995d.web.app/',
     image:portfolio
@@ -36,7 +36,7 @@ import portfolio from '../../assets/portfolio.png'
 {
     id:4,
     title:'Recipe Finder App',
-    description: 'Implemented using React Js core topics like Context API React Hooks',
+    description: 'Implemented using React Js core topics like Context API React Hooks,HTML and CSS',
     url: 'https://github.com/niloferabdul4/recipeapp.git',
     demo:'https://recipefinder-app.netlify.app/',
     image:recipe
@@ -45,7 +45,7 @@ import portfolio from '../../assets/portfolio.png'
 {
     id:5,
     title:'Quiz App',
-    description: 'Implemented using React Js core topics like Context API React Hooks',
+    description: 'Built using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/quiz_app.git',
     demo:'https://quizes-123.netlify.app/',
     image:quiz
@@ -53,7 +53,7 @@ import portfolio from '../../assets/portfolio.png'
 },{
     id:6,
     title:'Tenzies Game',
-    description: 'Implemented using React Js core topics like Context API React Hooks',
+    description: 'Built using React Js,HTML and  CSS',
     url: 'https://github.com/niloferabdul4/tenziesgame.git',
     demo:'https://tenzies-game123.netlify.app',
     image:tenzies
