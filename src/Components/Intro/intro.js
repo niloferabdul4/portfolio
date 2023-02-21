@@ -2,7 +2,6 @@ import React,{useEffect,useRef} from 'react';
 import './intro.css'
 import { init } from 'ityped';
 import image from '../../assets/web-development.png';
-import Social from '../Header/Social';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -30,8 +29,8 @@ export default function Intro(){
                             <span ref={textRef}></span>
                          </p>  
                          <span className='btn_container'>
-                           <a href='#resume'>
-                                <button className='intro_btn' >Resume</button>  
+                           <a href='#contact'>
+                                <button className='intro_btn' >Contact</button>  
                             </a>
                             <a href='#projects'>
                                 <button className='intro_btn' >Projects</button>  

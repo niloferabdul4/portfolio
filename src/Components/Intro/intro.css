@@ -66,7 +66,7 @@
     font-size: 1.01rem;
     font-weight: 400;
     transition:transform 100s ease-in-out;
-      
+    cursor: pointer; 
 }
 
 .intro_btn:hover

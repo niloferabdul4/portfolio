@@ -26,7 +26,6 @@ export default function Header()
                             <div className="right_section_lists">
                                 <ul>
                                     <li><a href="#projects">Projects</a></li>
-                                    <li><a href="#resume">Resume</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                                

@@ -3,9 +3,7 @@ import './menu.css'
 import {FaHome,
         FaUserAlt,
         FaPhoneAlt,
-        FaUserGraduate,
         FaProjectDiagram,
-        FaBook,
         FaLayerGroup,
       
        } from "react-icons/fa";
@@ -72,16 +70,7 @@ export default function Menubar() {
           </div>   
           </a>
         </li>        
-        <li onClick={()=>setMenuOpen(false)}>
-          <a href="#resume">
-          <div className='span_icon'>
-              <FaBook />                        
-          </div>
-          <div className='span_name'>
-               Resume
-          </div>   
-          </a>
-        </li> 
+       
       </ul>    
          </div>
                     
