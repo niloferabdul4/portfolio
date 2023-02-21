@@ -21,7 +21,7 @@
     color: #5F6F81;
     background-color: white;
     gap:20px;
-    padding: 80px;
+    padding: 80px 150px;
     margin:50px;
     box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
     
@@ -45,7 +45,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: rgba(5, 5, 5, 0.15)  1px 1px 1px 1.6px;
-    margin-bottom: 30px;
+    margin: 30px;
     cursor: pointer;
     transition: transform 2s ease; 
 }
@@ -92,17 +92,18 @@
 }
 .skills_box{
     
-    width: 100%;;
-    border-radius: 0px;
-    padding: 10px 0px;
-    background-color:rgba(237, 230, 230, 0.708) ;
+    width: 100%;
+    padding: 30px 20px;
+    background-color:white ;
     box-shadow: none;
+    margin: 30px 0px; 
+    border-radius: 10px;
  
 }
 
 .skills_box>ul{
     display:grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     row-gap:12px;
     column-gap: 6px;
   
@@ -110,10 +111,10 @@
 }
 
 .skills_box>ul>li{
-    height:70px;
-    width:70px;
+    height:65px;
+    width:65px;
     padding: 10px;
-    margin-right: 10px;
+    margin: 6px;
 }
 .logo{
     height:50px;

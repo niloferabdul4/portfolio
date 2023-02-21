@@ -31,10 +31,15 @@
    border-bottom:1px solid #F5F5F5;
    padding: 0px 20px;
    background-color:white;
+   transition-duration: 0.25s;  
+   cursor: pointer;
    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
 }
 
-
+.proj_card:hover{
+    transform: scale(1.05);
+    transition: transform 0.8s ease;
+}
 
 .proj_title{
     padding: 15px;
@@ -103,7 +108,8 @@
     }  
     .proj_card{
         color:black;
-        border-radius: 4px;;
+        border-radius: 4px;
+        width:300px;
     }
     .proj_image{
         height: 170px;

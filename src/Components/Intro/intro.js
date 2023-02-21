@@ -21,11 +21,7 @@ export default function Intro(){
         <div className='intro_container' id='intro'>                           
                <div className='intro_wrapper'>                  
                   <div className='intro_left'>
-                     <img className='vector_image' src={image} alt=''/>                   
-
-                 
-      
-        
+                     <img className='vector_image' src={image} alt=''/>                 
                    </div>   
                    <div className='intro_right'>
                         <h2>HI THERE! I'M</h2>
@@ -40,20 +36,9 @@ export default function Intro(){
                             <a href='#projects'>
                                 <button className='intro_btn' >Projects</button>  
                             </a>      
-                        </span> 
-                        {/*
-                        <div className='slider'>                     
-                            <Slider />
-                        </div>   
-    */}                           
-                                                                 
-                   </div>
-                                                
-               </div>   
-                
-                
-                
-               
+                        </span>                                                     
+                   </div>                                
+               </div>       
             </div>
                         
         

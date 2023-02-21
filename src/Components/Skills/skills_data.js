@@ -6,6 +6,8 @@ import mysql from '../../assets/icons8-mysql-logo.svg'
 import python from '../../assets/icons8-python.svg'
 import figma from '../../assets/icons8-figma.svg'
 import git from '../../assets/icons8-git.svg'
+import firebase from '../../assets/icons8-firebase.svg'
+import github from '../../assets/icons8-github.svg'
 
 const skills_data=[
     {
@@ -33,31 +35,32 @@ const skills_data=[
         name:'React'
   
       },
+
       {
         id:5,
-        image:python ,
-        name:'Python'
-  
-      },
-      {
-        id:6,
         image:mysql ,
         name:'MySQL'
   
       },
       {
-        id:7,
+        id:6,
         image:git ,
         name:'Git'
   
       },
       {
-        id:8,
-        image:figma,
-        name:'Figma'
+        id:7,
+        image: github,
+        name:'GitHub'
   
-      }
+      },
     
+      {
+        id:8,
+        image:firebase,
+        name:'Firebase'
+  
+      }     
 
 ]
 export default skills_data;
