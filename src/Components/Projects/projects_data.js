@@ -55,7 +55,7 @@ import portfolio from '../../assets/portfolio.png'
     title:'Tenzies Game',
     description: 'Built using React Js,HTML and  CSS',
     url: 'https://github.com/niloferabdul4/tenziesgame.git',
-    demo:'https://tenzies-game123.netlify.app',
+    demo:'https://tenzies-game-dfaaf.web.app',
     image:tenzies
  
 },
