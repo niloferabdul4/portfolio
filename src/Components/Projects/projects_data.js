@@ -4,7 +4,7 @@ import recipe from '../../assets/recipes.png'
 import quiz from '../../assets/quiz.png'
 import tenzies from '../../assets/tenzies.jpg'
 import portfolio from '../../assets/portfolio.png'
-
+import realestate from '../../assets/properties.png'
 
  const projects_data = [{
     id:1,
@@ -35,6 +35,15 @@ import portfolio from '../../assets/portfolio.png'
 
 {
     id:4,
+    title:'Real-Estate App',
+    description: 'Implemented using React Js core topics like Context API React Hooks,HTML and CSS',
+    url: 'https://github.com/niloferabdul4/real-estate-app.git',
+    demo:'https://realestateapp-dd755.web.app/',
+    image:realestate
+   
+},
+{
+    id:5,
     title:'Recipe Finder App',
     description: 'Implemented using React Js core topics like Context API React Hooks,HTML and CSS',
     url: 'https://github.com/niloferabdul4/recipeapp.git',
@@ -43,7 +52,7 @@ import portfolio from '../../assets/portfolio.png'
    
 },
 {
-    id:5,
+    id:6,
     title:'Quiz App',
     description: 'Built using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/quiz_app.git',
@@ -51,7 +60,7 @@ import portfolio from '../../assets/portfolio.png'
     image:quiz
   
 },{
-    id:6,
+    id:7,
     title:'Tenzies Game',
     description: 'Built using React Js,HTML and  CSS',
     url: 'https://github.com/niloferabdul4/tenziesgame.git',
