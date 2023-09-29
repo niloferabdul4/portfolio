@@ -4,7 +4,7 @@ import recipe from '../../assets/recipes.png'
 import quiz from '../../assets/quiz.png'
 import tenzies from '../../assets/tenzies.jpg'
 import portfolio from '../../assets/portfolio.png'
-import weather from '../../assets/weather.png'
+import realestate from '../../assets/properties.png'import weather from '../../assets/weather.png'
 
  const projects_data = [{
     id:1,
@@ -35,6 +35,15 @@ import weather from '../../assets/weather.png'
 
 {
     id:4,
+    title:'Real-Estate App',
+    description: 'Implemented using React Js core topics like Context API React Hooks,HTML and CSS',
+    url: 'https://github.com/niloferabdul4/real-estate-app.git',
+    demo:'https://realestateapp-dd755.web.app/',
+    image:realestate
+   
+},
+{
+    id:5,
     title:'Recipe Finder App',
     description: 'Implemented using React Js core topics like Context API React Hooks,HTML and CSS',
     url: 'https://github.com/niloferabdul4/recipeapp.git',
@@ -44,32 +53,29 @@ import weather from '../../assets/weather.png'
 },
 
 {
-    id:5,
+    id:6,
     title:'Quiz App',
     description: 'Built using React Js core topics like Context API React Hooks',
     url: 'https://github.com/niloferabdul4/quiz_app.git',
     demo:'https://quizes-123.netlify.app/',
     image:quiz
   
-},
-
-,{
-    id:5,
-    title:'Weather Forecast App',
-    description: 'Built using React Js,HTML and  CSS.Imported React, useState hook, useContext hook and axios package.',
-    url: ' https://github.com/niloferabdul4/weather_app.git',
-    demo:' https://react-weather-forecast123.netlify.app/',
-    image:weather
- 
-},
-
-{
+},{
     id:6,
     title:'Tenzies Game',
     description: 'Built using React Js,HTML and  CSS',
     url: 'https://github.com/niloferabdul4/tenziesgame.git',
     demo:'https://tenzies-game-dfaaf.web.app',
     image:tenzies
+ 
+},
+,{
+    id:7,
+    title:'Weather Forecast App',
+    description: 'Built using React Js,HTML and  CSS',
+    url: ' https://github.com/niloferabdul4/weather_app.git',
+    demo:' https://react-weather-forecast123.netlify.app/',
+    image:weather
  
 },
 ];
