@@ -4,7 +4,8 @@ import recipe from '../../assets/recipes.png'
 import quiz from '../../assets/quiz.png'
 import tenzies from '../../assets/tenzies.jpg'
 import portfolio from '../../assets/portfolio.png'
-import realestate from '../../assets/properties.png'import weather from '../../assets/weather.png'
+import realestate from '../../assets/properties.png'
+import weather from '../../assets/weather.png'
 
  const projects_data = [{
     id:1,
@@ -61,7 +62,7 @@ import realestate from '../../assets/properties.png'import weather from '../../a
     image:quiz
   
 },{
-    id:6,
+    id:7,
     title:'Tenzies Game',
     description: 'Built using React Js,HTML and  CSS',
     url: 'https://github.com/niloferabdul4/tenziesgame.git',
@@ -70,7 +71,7 @@ import realestate from '../../assets/properties.png'import weather from '../../a
  
 },
 ,{
-    id:7,
+    id:8,
     title:'Weather Forecast App',
     description: 'Built using React Js,HTML and  CSS',
     url: ' https://github.com/niloferabdul4/weather_app.git',
