@@ -76,8 +76,7 @@ import weather from '../../assets/weather.png'
     description: 'Built using React Js,HTML and  CSS',
     url: ' https://github.com/niloferabdul4/weather_app.git',
     demo:' https://react-weather-forecast123.netlify.app/',
-    image:weather
- 
+    image:weather 
 },
 ];
 
