@@ -7,7 +7,8 @@ import portfolio from '../../assets/portfolio.png'
 import realestate from '../../assets/properties.png'
 import weather from '../../assets/weather.png'
 
- const projects_data = [{
+ const projects_data = [
+    {
     id:1,
     title:'E-Commerce App',
     description:' A fully responsive e-commerce web app.Front-end made with HTML, CSS, React core concepts like Hooks, Context API, and Styled Components Integrated Firebase for Authentication and database. Added functionality such as add to cart, filters, fetch API, etc',
