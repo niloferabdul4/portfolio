@@ -5,7 +5,7 @@ import quiz from '../../assets/quiz.png'
 import tenzies from '../../assets/tenzies.jpg'
 import portfolio from '../../assets/portfolio.png'
 import realestate from '../../assets/properties.png'
-import weather from '../../assets/weather.png'
+
 
  const projects_data = [
     {
@@ -71,14 +71,7 @@ import weather from '../../assets/weather.png'
     image:tenzies
  
 },
-,{
-    id:8,
-    title:'Weather Forecast App',
-    description: 'Built using React Js,HTML and  CSS',
-    url: ' https://github.com/niloferabdul4/weather_app.git',
-    demo:' https://react-weather-forecast123.netlify.app/',
-    image:weather 
-},
+
 ];
 
 export default projects_data;
