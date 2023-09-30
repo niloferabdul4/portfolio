@@ -6,7 +6,6 @@ import Skills from './Components/Skills/skills';
 import Contact from './Components/Contact/contact';
 import Projects from './Components/Projects/projects';
 import Menubar from './Components/MenuBar/Menubar';
-import './app.css';
 import Footer from './Components/Footer/Footer';
 
 
