@@ -28,16 +28,17 @@
 
 .headersocial_links{
 
-    margin-right: 20px;
+    margin-right: 1.3em;
     justify-content: space-between;
     cursor: pointer;
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;  
-    padding: 20px;
+    padding: 1.2em;
 }
 
 .headersocial_links>a{
     color:black;
+    margin-right: 1.2em;
 }
 
 .headersocial_links:hover
