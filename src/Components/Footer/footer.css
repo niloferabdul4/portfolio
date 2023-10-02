@@ -8,7 +8,7 @@ footer{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 1.5rem 0;
+   padding: 1.5em;
    margin-top: 20px;;
 }
 
@@ -30,12 +30,13 @@ footer{
     cursor: pointer;
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;  
-    padding: 10px;
+    padding: 2px;
     font-size: 1.5rem;
 }
 
 .footersocial_links>a{
     color:white;
+    margin-right: 0.5em;
 }
 
 .footersocial_links:hover
@@ -47,9 +48,10 @@ footer{
 
 .copy_right{
     font-family: 'Poppins';
+    font-size: 1rem;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
     .footer_title{
         font-size: 1.2rem;
         margin-bottom:20px;
@@ -57,13 +59,16 @@ footer{
   
     
     .footersocial_links{
-    
+       padding: 0.5em;
         margin-right: 20px;
         justify-content: space-between;
         cursor: pointer;
         -webkit-transition-duration: 0.25s;
         transition-duration: 0.25s;  
-        padding: 10px;
         font-size: 1rem;
     }
+    .copy_right{
+        font-size: 0.75rem;
+    }
 }
+
