@@ -1,8 +1,5 @@
 
 
-
-
-
 .projects{
     display:flex;
     flex-direction: column; 
@@ -12,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-top: -600px;
+    margin-top: -400px;
 
  
 }
@@ -95,15 +92,15 @@
 
 /********  Rsponsive  ************/
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px ) {
   .projects{
 
-    margin:-360px 0px 30px 0px ;
+    margin:-300px 0px 30px 0px ;
    
   }
   .subHeading{
     
-    font-size: 20px;
+    font-size: 1.2rem;
   }
 
     .projects_container{
@@ -138,3 +135,6 @@
   
 
 
+@media screen and(min-width:600px) {
+    
+}
