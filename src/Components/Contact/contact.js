@@ -29,13 +29,10 @@ export default function Contact(){
     <section className="contact" id='contact' >
             <h2 className='sub_heading'>Contact Me</h2>
 
-        <div className="contact_container">
-
-                  
+        <div className="contact_container">                  
 
         <form ref={form} onSubmit={handleSubmit} className="form_container">    
              <div className="name_email">
-
                <label for ='name' className="label"  >Name*</label>
                <input type='text' className="input" id='name' name='name' placeholder="Enter Name"/>            
                <label for ='email' className="label">Email*</label>

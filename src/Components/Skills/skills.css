@@ -16,13 +16,13 @@
     border-radius: 50px;
     font-family: 'Roboto Slab','Poppins';
     border:2px;
-    height:50vh;
-    width:60%;
+    height:60vh;
+    width:70%;
     color: #5F6F81;
     background-color: white;
     gap:20px;
-    padding: 80px 150px;
-    margin:50px;
+    padding: 3em 3.5em;
+    margin:2em;
     box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
     
 }
@@ -61,8 +61,8 @@
 }
     
 .logo{
-    height: 60px;
-    width:60px;
+    height: 70px;
+    width:70px;
 }
 
 
@@ -72,9 +72,6 @@
     font-weight: bold;
     color:black;
 }
-.skills_heading{
-    font-size: 1.6rem;
-}
 
 
 
@@ -83,7 +80,7 @@
 }
 /*******  Responsive  ****************/
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
 .skills_container{    
     padding: 10px;
     justify-content: center;
@@ -93,7 +90,7 @@
 .skills_box{
     
     width: 100%;
-    padding: 30px 20px;
+    padding: 1.4em 1.2em;
     background-color:white ;
     box-shadow: none;
     margin: 30px 0px; 
@@ -132,4 +129,28 @@
 }
 
     
+}
+
+@media only screen and (min-width:600px) and (max-width:800px) {
+
+    
+.skills_box{
+    
+    width: 100%;
+    padding: 1.2em;
+    background-color:white ;
+    box-shadow: none;
+    margin: 3em 4em; 
+    border-radius: 10px;
+ 
+}
+    
+.skills_box>ul{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap:12px;
+    column-gap: 6px;
+  
+    
+}
 }

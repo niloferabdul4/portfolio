@@ -23,7 +23,7 @@ export default function Intro(){
                      <img className='vector_image' src={image} alt=''/>                 
                    </div>   
                    <div className='intro_right'>
-                        <h2>HI THERE! I'M</h2>
+                        <p>HI THERE! I'M</p>
                         <h1> NILOFER ABDUL</h1>                                           
                         <p className='title_items'> 
                             <span ref={textRef}></span>

@@ -1,14 +1,22 @@
 .header_section{
-    height:70px;
+
     width:100%;
     position:fixed;                                       
     top:0;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
-    display:flex;
-    justify-content: space-around;
     z-index: 100;
+    background-color: blueviolet;
        
 }
+
+.header_wrapper{
+    height: 70px;;
+    padding: 1em  1.2em ;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+   
+}   
     
 .left_section{
  
@@ -26,7 +34,6 @@
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;  
     padding: 20px;
-    font-size: 1.4rem;
 }
 
 .headersocial_links>a{
@@ -45,7 +52,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 0px 50px;
+
 
   /*
   -webkit-transition-duration: 0.25s;
@@ -54,16 +61,15 @@
 }
 
 .right_section_lists>ul{
-    padding: 20px;;
-    margin-right: 30px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
     gap:50px;
-    font-size: 18px;
-   
+    list-style: none;;
+     
    
 
 }
@@ -79,9 +85,10 @@
 
  /*******  Responsive  ****************/
 
- @media only screen and (max-width: 480px){
+ @media only screen and (max-width: 600px){
     .header_section {
         height:50px;
+        top:0;
         background-color: white;
     }
   
@@ -91,6 +98,48 @@
     .right_section_lists{
         display: none;
        }
+       .right_section_lists>ul>li>a{
+        
+        margin-right: 4px; 
+        color: black;
+       
+        
+      }
+
+          
+    .headersocial_links{
+       
+        margin-right: 0px;
+        padding: 14px 8px;;
+        font-size: 1rem;
+        
+       
+       
+    }
+
+    
+    .headersocial_links>li>a{
+        
+        margin-right: 2px;;
+       
+     
+    }
+
+    }
+   
+
+    
+ @media only screen and (min-width: 600px){
+    .header_section {
+        height:50px;
+        background-color: white;
+        top:0;
+    }
+  
+    .right_section{
+     padding:0px 20px;
+    }
+   
        .right_section_lists>ul>li>a{
         
         margin-right: 4px; 

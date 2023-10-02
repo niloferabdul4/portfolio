@@ -17,32 +17,32 @@ import {
 const Social = [
     {
       id: 1,
-      iconName: <FaFacebookF />,
+      iconName: <FaFacebookF  fontSize={23}/>,
       iconLink: "https://www.facebook.com/nilofer.abdul/",
     },
     {
       id: 2,
-      iconName: <FaInstagram />,
+      iconName: <FaInstagram  fontSize={25} />,
       iconLink: "https://www.instagram.com/niloferabdul/",
     },
     {
       id: 3,
-      iconName: <FaWhatsapp />,
+      iconName: <FaWhatsapp  fontSize={23} />,
       iconLink: "#",
     },
     {
       id: 4,
-      iconName: <FaTwitter />,
+      iconName: <FaTwitter  fontSize={23}  />,
       iconLink: "#",
     },
     {
       id: 5,
-      iconName: <FaLinkedinIn />,
+      iconName: <FaLinkedinIn  fontSize={23} />,
       iconLink: "https://www.linkedin.com/in/nilofer-abdul-06618b266/",
     },
     {
       id: 6,
-      iconName: <FaGithub />,
+      iconName: <FaGithub  fontSize={23} />,
       iconLink: "https://github.com/niloferabdul4",
     },
   ];

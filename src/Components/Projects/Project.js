@@ -9,7 +9,7 @@ const Project = ({projectItem}) => {
 
       <div className="proj_card">          
                 <div className="image_container">
-                        <h3 className='proj_title'>{projectItem.title}</h3>
+                        <h4 className='proj_title'>{projectItem.title}</h4>
                         <img src={projectItem.image} alt='' className='proj_image'/>
                 </div>
                 <div className='info_container'>

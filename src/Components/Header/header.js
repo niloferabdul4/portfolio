@@ -12,7 +12,8 @@ export default function Header()
     return(
         <>
         <div className="header_section">   
-                    <div className="left_section">
+           <div className="header_wrapper">
+           <div className="left_section">
                         {Social &&
                         Social.map((social) => (
                             <div className='headersocial_links' >
@@ -31,14 +32,15 @@ export default function Header()
                                
                             </div>                           
                         <div className={"right_section_hamburger " + (menuOpen && "active")}>                        
-                          {menuOpen? (<GrClose size={22} color={'white'} onClick={()=>setMenuOpen(false)}/>)
+                          {menuOpen? (<GrClose size={24} color={'white'}  onClick={()=>setMenuOpen(false)}/>)
                                     :
                                      (<GiHamburgerMenu  size={24} onClick={()=>{setMenuOpen(true)}}/>)}
                         </div>
                        
-                    </div>  
-                   
+                    </div>                     
 
+           </div>
+                  
        </div>
 
      
