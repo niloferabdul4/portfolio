@@ -1,5 +1,6 @@
 footer{
-   background-color: #fff;
+   background-color: rgb(37, 33, 33);
+   color: #fff;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -31,7 +32,7 @@ footer{
 }
 
 .footersocial_links>a{
-   color:black;
+    color:white;
 }
 
 .footersocial_links:hover
