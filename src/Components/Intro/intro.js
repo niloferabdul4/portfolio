@@ -28,14 +28,14 @@ export default function Intro(){
                         <p className='title_items'> 
                             <span ref={textRef}></span>
                          </p>  
-                         <span className='btn_container'>
+                         <div className='intro_btn_container'>
                            <a href='#contact'>
                                 <button className='intro_btn' >Contact</button>  
                             </a>
                             <a href='#projects'>
                                 <button className='intro_btn' >Projects</button>  
                             </a>      
-                        </span>                                                     
+                        </div>                                                     
                    </div>                                
                </div>       
             </div>

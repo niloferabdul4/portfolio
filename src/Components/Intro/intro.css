@@ -25,9 +25,7 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 100px;;
-   
-   
-  
+ 
 }
 .intro_right{
     flex:0.4;
@@ -36,7 +34,8 @@
     justify-content: space-around;
     margin-right: 100px;
     gap:20px;
-
+    width:100%;
+   
 }
 
 .vector_image{
@@ -51,13 +50,12 @@
  
 }
 
-.btn_container{
+.intro_btn_container{
     display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
+    justify-content:space-around;
     align-items: flex-start;
-    width:10%;
-    
+    width:60%;
+
    
 }
 .slider{   
@@ -70,7 +68,7 @@
 .intro_btn{
     background-color: #6639a5;
     border-radius: 12px;
-    margin:  20px;
+    margin:  1.2em 0em ;
     color: white;
     letter-spacing: 2px;
     padding: 1em;
