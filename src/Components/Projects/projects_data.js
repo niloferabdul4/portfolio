@@ -30,7 +30,7 @@ import realestate from '../../assets/properties.png'
     title:'Personal Portfolio',
     description: 'Implemented using React Js core topics like Context API React Hooks,HTML and CSS',
     url: 'https://github.com/niloferabdul4/portfolio.git',
-    demo:'https://personal-portfolio-2995d.web.app/',
+    demo:'https://personal-portfolio-e7c9e.web.app',
     image:portfolio
    
 },
@@ -70,7 +70,8 @@ import realestate from '../../assets/properties.png'
     demo:'https://tenzies-game-dfaaf.web.app',
     image:tenzies
  
-},
+}
+
 
 ];
 

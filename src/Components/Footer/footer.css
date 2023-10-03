@@ -52,6 +52,7 @@ footer{
 }
 
 @media only screen and (max-width: 600px){
+    
     .footer_title{
         font-size: 1.2rem;
         margin-bottom:20px;
@@ -60,7 +61,7 @@ footer{
     
     .footersocial_links{
        padding: 0.5em;
-        margin-right: 20px;
+        margin-right: 1em ;
         justify-content: space-between;
         cursor: pointer;
         -webkit-transition-duration: 0.25s;

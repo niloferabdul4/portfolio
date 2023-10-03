@@ -8,7 +8,7 @@
     align-items: center;
     justify-content:center;
     padding:30px 0px;
-    margin: 3em 0em;
+    margin: 1em 10em;
     font-family: 'Roboto';   
 }
 
@@ -114,13 +114,16 @@
 
 /*******  Responsive  ****************/
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
+    .contact{
+        margin:1.5em 0em;
+    }
     .contact_container{
        height:100vh;
        width:90%;
        padding: 1.2em;
        box-shadow: none;
-       margin: 1.5em 0em; 
+       margin:0.5em 2em;
       
     }
 
@@ -156,7 +159,7 @@
 @media only screen and (min-width:600px) and (max-width:800px) {
     .contact{
         padding: 2em;
-        margin: 4em 0em;
+        margin: 2em;
     }
     .contact_container{        
         width: 80%;

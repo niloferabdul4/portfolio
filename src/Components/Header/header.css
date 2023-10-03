@@ -4,7 +4,7 @@
     position:fixed;                                       
     top:0;
     z-index: 100;
-    background-color: blueviolet;
+    
        
 }
 
@@ -87,21 +87,24 @@
  /*******  Responsive  ****************/
 
  @media only screen and (max-width: 600px){
+ 
+    .header_wrapper{
+        padding: 0.5em 1em;
+    }
     .header_section {
         height:50px;
         top:0;
         background-color: white;
+        
     }
   
-    .right_section{
-     padding:0px 20px;
-    }
+ 
     .right_section_lists{
         display: none;
        }
        .right_section_lists>ul>li>a{
         
-        margin-right: 4px; 
+        margin-right: 0.1em; 
         color: black;
        
         
@@ -111,9 +114,8 @@
     .headersocial_links{
        
         margin-right: 0px;
-        padding: 14px 8px;;
-        font-size: 1rem;
-        
+        padding: 14px 4px;;
+        font-size: 0.2rem;      
        
        
     }
@@ -130,7 +132,7 @@
    
 
     
- @media only screen and (min-width: 600px){
+    @media only screen and (min-width:600px) and (max-width:800px){
     .header_section {
         height:50px;
         background-color: white;

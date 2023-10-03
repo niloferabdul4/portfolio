@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     padding: 2em;
-    margin:2em;
+    margin: 1em 10em;
     line-height: 1.8;
     box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
     
@@ -42,8 +42,8 @@
 
 @media only screen and (max-width: 600px){
 .about_container{    
-    box-shadow: none;
-    margin:1.1em 0em;
+    
+    margin:1em 0em;
     justify-content: center;
    
    
@@ -53,9 +53,9 @@
     height:70vh;
     border-radius: 20px;
     background-color:white ;
+    box-shadow: none; 
+    padding: 2em 1em;
     box-shadow: none;
-    margin: 2em 0em;   
-    padding: 2em;
    }
    
 .about_heading{
@@ -68,7 +68,7 @@
     text-align: justify;
     font-size: 1.1rem;
     font-weight: 400;
-    line-height: 40px;;
+    line-height: 40px;
     
 }
 }
@@ -77,7 +77,7 @@
 @media only screen and (min-width:600px) and (max-width:800px) {
     .about_container{    
         box-shadow: none;
-        margin:1.1em 0em;
+        margin:1em 0em;
         justify-content: center;
        
        
@@ -88,7 +88,7 @@
         border-radius: 20px;
         background-color:white ;
         box-shadow: none;
-        margin: 2em 0em;   
+        margin: 1em 0em;   
         padding: 1em;
 
        }
