@@ -133,7 +133,7 @@ display: -webkit-box;
 /***********  For Labtops and Desktops   ************/
 
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:780px)  {
 .projects_container{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
