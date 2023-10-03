@@ -8,8 +8,8 @@
     align-items: center;
     justify-content:center;
     padding:30px 0px;
-    margin: 1.5em 0em;
-    font-family: 'Roboto';   
+    font-family: 'Roboto'; 
+    margin:1.5em 0em;
 }
 
 
@@ -18,14 +18,12 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    gap:100px;
-    background-color:white;
-    height:75vh;
-    width:50%;
-    margin: 1.5em 0em;
-    padding: 3.2em;
-    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
     border-radius: 10px;
+    width:90%;
+    padding: 1.2em;
+    box-shadow: none;
+    margin:1em 2em;
+    background-color: white;
     
 }
 .form_container
@@ -39,26 +37,25 @@
     align-items: center;
     color: black; 
     position:relative;  
+    gap:20px;
 
 }
 
 .label{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .name_email{
-    
+    gap:10px;
     display: grid;
-    width:100%;    
-    align-items: center;
     }
 
 .input {
-  
+
     height:40px;
     color:rgb(37, 33, 33);
     text-indent: 20px;
     border:1px solid lightgray;
-    margin: 30px 0px;    
+    margin: 10px 0px;    
 }
 
 
@@ -91,15 +88,16 @@
 }
 
 .send_btn{
-    width: 40%;
-    height:50px;
+    
     border-radius: 10px;
-    font-size: 1.1rem;
     font-family: 'Roboto';
     cursor: pointer;
     color: white;
     margin: 6px;
     background-color: rgb(37, 33, 33);;
+    width: 60%;
+    height:40px;
+    font-size: 0.96rem;
 }
 
 .sent_msg{
@@ -112,66 +110,62 @@
     top:50%;
 }
 
-/*******  Responsive  ****************/
 
-@media only screen and (max-width: 600px){
-    .contact{
-        margin:1.5em 0em;
-    }
-    .contact_container{
-       height:100vh;
-       width:90%;
-       padding: 1.2em;
-       box-shadow: none;
-       margin:1em 2em;
-      
-    }
-    
-    .sub_heading{
-        font-size: 1.2rem;
-    }
+/***********   For Laptops and Desktops   ************/
 
-    .label{
-        font-size: 1rem;
-    }
-    .form_container{
-       
-        font-weight: 400;
-        gap:20px;
-    }
-    .name_email{
-        gap: 10px;;
-    }
+@media only screen and (min-width:780px) {
+.contact{
+    margin: 1.5em 0em;
+}
+
+.contact_container{
+    gap:100px;
+    background-color:white;
+    height:80vh;
+    width:50%;
+    margin: 1.5em 0em;
+    padding: 3.2em;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+}
+
+.form_container{
+    padding: 2em 0em;
+}
+.sub_heading{
+    font-size: 1.8rem;
+}
+
+.label{
+    font-size: 1.4rem;
+}
+.name_email{
+    width:100%;    
+    align-items: center;
+}
+.input{
     
-.input {
-  
-    height:30px;
-    color:rgb(37, 33, 33);
-    text-indent: 20px;
-    border:1px solid lightgray;
-    margin: 10px 0px;    
+    height:40px;
+    margin: 30px 0px;  
+    
 }
 .send_btn{
-    width: 60%;
-    height:40px;
-    font-size: 0.96rem;
-   
+    width: 40%;
+    height:50px;
+    font-size: 1.1rem;
+}
 }
 
-}
-
-@media only screen and (min-width:600px) and (max-width:1200px) {
-    .contact{
-        padding: 2em;
-        margin: 2em 0em;
+@media only screen and (min-width:600px) and (max-width:780px) {
+    .contact_container{
+    gap:100px;
+    background-color:white;
+    height:60vh;
+    width:80%;
+    margin: 1.5em 0em;
+    
     }
-    .contact_container{        
-        width: 80%;
-        height:100vh;
-        padding: 1.5em;
-        margin: 2em 1em;
-    } 
-    .form_container{
-        height: 100%;;
+    .name_email{
+        width:100%;    
+        align-items: center;
     }
 }

@@ -3,80 +3,49 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.1em;    
+    padding: 0.5em;    
     width: 100%;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
-
+    margin: 1em 0em;
+ 
 }
 
 
 .about_box{
-    border-radius: 50px;
-    background-color: rgb(35, 8, 8);
-    font-family: 'Roboto';
-    border:2px;
-    width:70%;
-    background-color:white;
-    color: #5F6F81;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    margin: 1em 10em;
-    line-height: 1.8;
-    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
-    
+    border-radius: 30px;
+    color: #27282a;
+    padding: 2em 1em;
+    box-shadow: none;
+    background-color: white;
+     gap:15px;
+     margin: 1.5em 0em;
+}
+
+.about_heading{
+    font-size: 1.4rem;
 }
 
 
-.about_box p{
+.about_box>p{
 
     text-align: justify;
+    line-height: 2;
+    font-size: 1.1rem;
+    margin-bottom: 1.4em;
  
     
 }
 
-/*******  Responsive  ****************/
 
-@media only screen and (max-width: 600px){
-.about_container{    
+/***********   For tablets   **************/
 
-    justify-content: center;
-   
-   
-}
-   .about_box{   
-    width: 100%;
-    border-radius: 20px;
-    background-color:white ;
-    box-shadow: none; 
-    padding: 2em;
-    margin:2em 1em;
-    box-shadow: none;
-   }
-   
-.about_heading{
-    font-size: 20px;
-   
-}
-
-.about_box p{
-
-    text-align: justify;
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 40px;
-    
-}
-}
-
-
-@media only screen and (min-width:600px) and (max-width:1200px) {
-    .about_container{    
-        box-shadow: none;
+@media only screen and (min-width:600px) and (max-width:780px) {
+    .about_container
+    {    
+        margin: 0.5em;
         justify-content: center;
+      
          
     }
        .about_box{   
@@ -84,13 +53,13 @@
         border-radius: 20px;
         background-color:white ;
         box-shadow: none;  
-        padding: 2em1em;
-        margin: 2em 1em;
+        padding: 2em ;
+        margin:2em 0.5em;
         gap:15px;
        }
        
     .about_heading{
-        font-size: 20px;
+        font-size: 1.8rem;
        
     }
     
@@ -103,3 +72,33 @@
         
     }
     }
+
+/************    For laptopbs and dcesktops   ***********/
+
+@media screen and (min-width:780px) {
+.about_container{
+    margin: 1em;
+}
+.about_box{
+    margin: 3em;
+}
+
+ .about_box{    
+    padding:  3em;
+    width:70%;
+    line-height: 1.8;
+    gap:15px;
+    box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
+
+ }
+
+ .about_box>p{
+    font-size: 1.3rem;
+   
+ }
+
+ .about_heading{
+    font-size: 1.8rem
+ }
+
+}
