@@ -8,7 +8,7 @@
     align-items: center;
     justify-content:center;
     padding:30px 0px;
-    margin: 1em 10em;
+    margin: 1.5em 0em;
     font-family: 'Roboto';   
 }
 
@@ -22,7 +22,7 @@
     background-color:white;
     height:75vh;
     width:50%;
-    margin:3em;
+    margin: 1.5em 0em;
     padding: 3.2em;
     box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
     border-radius: 10px;
@@ -126,6 +126,10 @@
        margin:0.5em 2em;
       
     }
+    
+    .sub_heading{
+        font-size: 1.2rem;
+    }
 
     .label{
         font-size: 1rem;
@@ -156,15 +160,16 @@
 
 }
 
-@media only screen and (min-width:600px) and (max-width:800px) {
+@media only screen and (min-width:600px) and (max-width:820px) {
     .contact{
         padding: 2em;
-        margin: 2em;
+        margin: 2em 0em;
     }
     .contact_container{        
         width: 80%;
         height:100vh;
         padding: 1.5em;
+        margin: 2em 1em;
     } 
     .form_container{
         height: 100%;;
