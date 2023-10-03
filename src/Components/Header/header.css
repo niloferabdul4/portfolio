@@ -53,7 +53,8 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-
+  margin-right:15px;
+  gap:20px;
 
   /*
   -webkit-transition-duration: 0.25s;
@@ -99,25 +100,25 @@
     }
   
  
-    .right_section_lists{
+    .right_section_lists
+    {
         display: none;
        }
-       .right_section_lists>ul>li>a{
+       .right_section_lists>ul>li>a
+       {
         
         margin-right: 0.1em; 
-        color: black;
-       
-        
+        color: black; 
       }
 
           
-    .headersocial_links{
+    .headersocial_links
+    {
        
         margin-right: 0px;
         padding: 14px 4px;;
-        font-size: 0.2rem;      
-       
-       
+        font-size: 0.2rem;  
+           
     }
 
     

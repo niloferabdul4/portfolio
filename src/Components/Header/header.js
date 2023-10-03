@@ -32,9 +32,9 @@ export default function Header()
                                
                             </div>                           
                         <div className={"right_section_hamburger " + (menuOpen && "active")}>                        
-                          {menuOpen? (<GrClose size={24} color={'white'}  onClick={()=>setMenuOpen(false)}/>)
+                          {menuOpen? (<GrClose size={24} color={'white'} style={{cursor:'pointer'}} onClick={()=>setMenuOpen(false)}/>)
                                     :
-                                     (<GiHamburgerMenu  size={24} onClick={()=>{setMenuOpen(true)}}/>)}
+                                     (<GiHamburgerMenu  size={24} style={{cursor:'pointer'}} onClick={()=>{setMenuOpen(true)}}/>)}
                         </div>
                        
                     </div>                     

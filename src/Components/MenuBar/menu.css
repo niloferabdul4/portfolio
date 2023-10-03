@@ -1,18 +1,18 @@
 
 .menu{  
-    background-color:darkslateblue;
-    color:white;
+    background-color:white;
+    color:black;
     font-family: 'Poppins' sans-serif;
-    width: 240px;
+    width: 250px;
     height: 100vh;
     position: fixed;
     top: 70px;
-    right: -240px;
+    right: -250px;
     z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all 1s ease;
+    transition: all 2s ease;
    
     
 }
@@ -32,13 +32,13 @@
 
 .menu>ul>li{
     margin:30px 0px;
-    padding:10px;
+    padding:20px;
     
 }
 
 .menu>ul>li>a{
     font-size: 18px;
-    color: white;
+    color: black;
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -68,15 +68,8 @@ li:hover
     display:block;
     transition: ease 1s; 
     cursor: pointer;
-    background-color: dimgrey;
+    background-color: rgb(222, 218, 218);
 }
-
-
-
-
-
-
-
 
 
 /**********MEDIA QUOTES (MEDIUM DEVICES)   ***************
