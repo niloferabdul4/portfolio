@@ -7,9 +7,10 @@ const About = () => {
             <div className="about_container" id='about'>                
                         <h2 className='about_heading'>About Me</h2>
                         <div className='about_box'>                            
-                            <p>Iam a self taught react developer with a bachelor's degree in Information Technology.I enjoy creating things that live on the internet.
-                             Well-organised person, problem solver, independent employee with high attention to detail. 
-                             </p>
+                            <p> I'm a <b>Frontend Web Developer</b> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
+
+<p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+                             
                         </div>       
             </div>
         </div>
