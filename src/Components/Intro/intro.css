@@ -161,7 +161,7 @@
    .intro_container{
     justify-content: center;
     width: 100%;
-    margin:0.5em 2em;
+    margin:0em 2em;
    }
 
     .intro_wrapper{
@@ -183,7 +183,7 @@
  
   .intro_left{
     width: 100%;
-    flex: 1;
+    flex: 0.5;
 }
   .vector_image{
     width: 100%;
@@ -191,6 +191,7 @@
    
   
     .intro_right{
+        flex: 0.5;
         width: 100%;;
         display: flex;
         flex-direction: column;
