@@ -14,7 +14,7 @@
     box-shadow: none;
     width: 100%;
     padding: 1.4em 1.2em;
-    background-color:white ;
+    background-color:#f1f0f4;
     box-shadow: none;
     margin:1.5em 0em;
     border-radius: 10px;
@@ -85,7 +85,7 @@
 
 /*****  Tablet  ******************/
 
-@media only screen and (min-width:600px) and (max-width:780px) {
+@media only screen and (min-width:600px) and (max-width:820px) {
 .skills_container{
    padding: 1em;
    margin:2em;
@@ -120,7 +120,7 @@
 
 /**********   For Labtops and Desktops   *************/
 
-@media only screen and  (min-width:780px) {
+@media only screen and  (min-width:821px) {
 
 .skills_box{
     border-radius:50px;

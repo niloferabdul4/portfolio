@@ -6,6 +6,7 @@
     scroll-snap-align: start;
     width: 100%;
     margin:2em 0em; 
+ 
    }
 
     .intro_wrapper
@@ -24,7 +25,7 @@
     flex: 0.5;
 }
   .vector_image{
-    width: 100%;
+    width: 90%;
   }
    
   
@@ -37,18 +38,19 @@
         align-items: center;
         gap:16px;  
         padding: 1em 0em;
-        line-height: 1.6;
+        line-height: 1.8;
       
     }
  
     .intro_right>h1{
-        font-size: 1.3rem;
+        font-size: 1.8rem;
+        color:#e6e1f9;
     }
     .title_items{    
-        min-height: 40px;   
+        min-height: 60px;   
         letter-spacing: 1px;
         font-weight: 600;
-        color: #6639a5;
+        color: #e6e1f9;
         font-size: 1.1rem;
     }
 
@@ -80,6 +82,7 @@
         cursor: pointer; 
         border: none;
         padding: 1em;
+        font-size: 1rem;
     } 
 
     .intro_btn:hover
@@ -125,17 +128,17 @@
 
 /*********  For Tablets  ******************/
 
-@media only screen and (min-width:600px) and (max-width:780px) {
+@media only screen and (min-width:600px) and (max-width:820px) {
 
     .intro_container{
-        margin: 0.5em 0em;
-        height:50%;
+        margin: 2.5em 0em;
+        height:80%;
         
        }
     
         .intro_wrapper{
         display:flex;
-        flex-direction:row ; 
+        flex-direction:column; 
         justify-content: center; 
         margin: 0 auto;
         padding: 0em;
@@ -157,16 +160,15 @@
        
   
         .intro_right>h2{
-            font-size: 1.4em;
+            font-size: 1.6em;
         }
         .intro_right>h1{
-            font-size: 1.8rem;
+            font-size: 2.6rem;
         }
         .title_items{    
             min-height: 50px;   
             letter-spacing: 1px;
             font-weight: 600;
-            color: #6639a5;
             font-size: 1.1rem;
         }
         
@@ -176,7 +178,7 @@
             margin: 0px 10px 0px 0px;
             color: white;
             letter-spacing: 2px;
-            font-size: 0.95rem;     
+            font-size: 1.2rem;     
             
         } 
     
@@ -184,7 +186,7 @@
 
 /**********  For laptops and desktops  *************/
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:821px) {
     
   .intro_container{
     margin: 3em 0em;
@@ -195,9 +197,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     
   
   }
+  .intro_left{
+    flex:0.6;
+    
+
+}
+.intro_right{
+    flex:0.4;
+    
+}
 .intro_left{
    
     display: flex;
@@ -213,20 +225,20 @@
     justify-content: space-around;
     align-items: flex-start;
     margin-right: 100px;
-    gap:20px;
+    gap:25px;
     width:100%;
    
 }
 .intro_right>p{
-    font-size: 1.5rem;
-}
-
-.intro_right>h2{
     font-size: 1.8rem;
 }
 
+.intro_right>h2{
+    font-size: 1.6rem;
+}
+
 .intro_right>h1{
-    font-size: 2rem;
+    font-size: 3.2rem;
 }
 .intro_btn{
     font-size: 1.2rem;

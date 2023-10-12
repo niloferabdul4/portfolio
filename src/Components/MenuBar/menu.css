@@ -1,6 +1,6 @@
 
 .menu{  
-    background-color:white;
+    background-color:#f1f0f4;
     color:black;
     font-family: 'Poppins' sans-serif;
     width:160px;
@@ -32,7 +32,7 @@
 
 .menu>ul>li{
    
-    margin:25px 0px;
+    margin:25px 10px;
     font-size: 1rem;  
     width: 100%;
     
@@ -72,12 +72,11 @@ li:hover
 }
 
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:821px) {
 .menu{
   width: 250px;
   right: -250px;
   top:70px;
-  background-color:white;
   color:black;
 }
 

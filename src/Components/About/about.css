@@ -5,7 +5,6 @@
     align-items: center;
     padding: 0.5em;    
     width: 100%;
-    height: calc(100vh - 70px);
     scroll-snap-align: start;
     margin: 1em 0em;
  
@@ -17,7 +16,7 @@
     color: #27282a;
     padding: 2em 1em;
     box-shadow: none;
-    background-color: white;
+    background-color:#f1f0f4;
      gap:15px;
      margin: 1.5em 0em;
 }
@@ -40,7 +39,7 @@
 
 /***********   For tablets   **************/
 
-@media only screen and (min-width:600px) and (max-width:780px) {
+@media only screen and (min-width:600px) and (max-width:820px) {
     .about_container
     {    
         margin: 0.5em;
@@ -75,7 +74,7 @@
 
 /************    For laptopbs and dcesktops   ***********/
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:821px) {
 .about_container{
     margin: 1em;
 }

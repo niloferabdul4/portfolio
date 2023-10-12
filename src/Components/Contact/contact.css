@@ -24,7 +24,7 @@
     padding: 1.2em;
     box-shadow: none;
     margin:1em 2em;
-    background-color: white;
+    background-color:#f1f0f4;
     
 }
 .form_container
@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     color: black; 
     position:relative;  
     gap:20px;
@@ -48,10 +48,11 @@
 .name_email{
     gap:10px;
     display: grid;
+    width: 100%;;
     }
 
 .input {
-
+   
     height:40px;
     color:rgb(37, 33, 33);
     text-indent: 20px;
@@ -114,14 +115,14 @@
 
 /***********   For Laptops and Desktops   ************/
 
-@media only screen and (min-width:780px) {
+@media only screen and (min-width:821px) {
 .contact{
     margin: 1.5em 0em;
 }
 
 .contact_container{
     gap:100px;
-    background-color:white;
+    background-color:#f1f0f4;
     border-radius: 10px;
     height:80vh;
     width:50%;
@@ -135,6 +136,7 @@
 }
 .sub_heading{
     font-size: 1.8rem;
+    color:#f1f0f4;
 }
 
 .label{
@@ -157,10 +159,9 @@
 }
 }
 
-@media only screen and (min-width:600px) and (max-width:780px) {
+@media only screen and (min-width:600px) and (max-width:821px) {
     .contact_container{
     gap:100px;
-    background-color:white;
     height:70vh;
     width:80%;
     margin: 1.5em 0em;

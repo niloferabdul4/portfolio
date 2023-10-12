@@ -1,49 +1,12 @@
-/**
-
- 
-    .right_section_lists
-    {
-        display: none;
-       }
-       .right_section_lists>ul>li>a
-       {
-        
-        margin-right: 0.1em; 
-        color: black; 
-      }
-
-          
-    .headersocial_links
-    {
-       
-        margin-right: 0px;
-        padding: 14px 4px;;
-        font-size: 0.2rem;  
-           
-    }
-
-    
-    .headersocial_links>li>a{
-        
-        margin-right: 2px;;
-       
-     
-    }
-
-
-*/
-
 
 .header_section{
-    height:50px;
     top:0;
-    background-color: white;
+    background-color: #421A4C;
+    color:rgb(236, 228, 241);
     width:100%;
     position:fixed;                                       
-    top:0;
     z-index: 100;
     
-       
 }
 
 .header_wrapper{
@@ -75,7 +38,7 @@
 }  
    
 .headersocial_links>a{
-    color:black;
+    color:#e6e1f9;
     margin-right: 0px;;
         
 }
@@ -105,15 +68,15 @@
 
        
 .right_section_lists>ul>li>a{
-    color:black;
+    color:#e6e1f9;
     margin-right: 0.1em; 
       
   }
     
- @media only screen and (min-width:600px) and (max-width:780px){
+ @media only screen and (min-width:600px) and (max-width:820px){
     .header_section {
-        height:50px;
-        background-color: white;
+        background-color: #421A4C;
+        color:rgb(236, 228, 241);
         top:0;
     }
   
@@ -147,7 +110,7 @@
 
     /**********   Labtops and Desktops  *************/ 
 
-    @media only screen and (min-width:780px) {
+    @media only screen and (min-width:821px) {
 
     .header_wrapper{
         padding: 1em  1.2em ;
