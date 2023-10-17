@@ -6,7 +6,7 @@
 }
 
 body{
-    font-size: 1.5rem;
+   
     text-decoration: none;
     font-family: 'Roboto',sans-serif;
     height: 100%;
@@ -30,7 +30,7 @@ body{
         background-color: #421A4C;
         color:white;
         z-index: 1;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
    
     }
     a{
