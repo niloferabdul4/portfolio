@@ -5,7 +5,7 @@ import quiz from '../../assets/quiz.png'
 import tenzies from '../../assets/tenzies.jpg'
 import portfolio from '../../assets/portfolio.png'
 import realestate from '../../assets/properties.png'
-
+import notes from '../../assets/notes.png'
 
  const projects_data = [
     {
@@ -70,7 +70,18 @@ import realestate from '../../assets/properties.png'
     demo:'https://tenzies-game-dfaaf.web.app',
     image:tenzies
  
+},
+{
+    id:8,
+    title:'Notes App',
+    description:'Built using React Js,HTML and  CSS',
+    url:'https://github.com/niloferabdul4/easynotesapp.git',
+    demo:'https://notesapp-4ca19.web.app/',
+    image:notes
+    
 }
+
+
 
 
 ];

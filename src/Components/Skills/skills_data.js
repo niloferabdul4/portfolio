@@ -36,25 +36,19 @@ const skills_data=[
 
       {
         id:5,
-        image:mysql ,
-        name:'MySQL'
-  
-      },
-      {
-        id:6,
         image:git ,
         name:'Git'
   
       },
       {
-        id:7,
+        id:6,
         image: github,
         name:'GitHub'
   
       },
     
       {
-        id:8,
+        id:7,
         image:firebase,
         name:'Firebase'
   
