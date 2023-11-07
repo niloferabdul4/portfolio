@@ -151,7 +151,6 @@ display: -webkit-box;
     }
 .projects_container{
     display:grid;
-
     grid-template-columns: repeat(3,400px);
     grid-template-rows: repeat(3,600px);
     grid-column-gap:10px;

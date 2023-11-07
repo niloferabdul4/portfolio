@@ -40,13 +40,15 @@
 .headersocial_links>a{
     color:#e6e1f9;
     margin-right: 0px;;
+
         
 }
 
-.headersocial_links:hover
+.headersocial_links>a:hover
 {
     transform: scale(1.3);
     transition: transform 0.3s ease-in-out;
+    
 }
 
 
@@ -70,6 +72,13 @@
 .right_section_lists>ul>li>a{
     color:#e6e1f9;
     margin-right: 0.1em; 
+      
+  }
+
+         
+.right_section_lists>ul>li:hover{
+    background:transparent;
+    
       
   }
     
