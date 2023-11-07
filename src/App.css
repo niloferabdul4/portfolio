@@ -27,7 +27,7 @@ body{
         overflow-y: scroll;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* Internet Explorer 10+ */
-        background-color: #17061c;
+        background-color: #340d3d;
         color:white;
         z-index: 1;
         font-size: 1.2rem;
