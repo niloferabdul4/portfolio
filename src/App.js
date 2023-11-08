@@ -1,27 +1,22 @@
 import React from 'react';
 import Header from './Components/Header/header';
-import Intro from './Components/Intro/intro';
-import About from './Components/About/about';
-import Skills from './Components/Skills/skills';
-import Contact from './Components/Contact/contact';
-import Projects from './Components/Projects/projects';
 import Menubar from './Components/MenuBar/Menubar';
 import Footer from './Components/Footer/Footer';
 import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import ProjectsList from './Pages/ProjectsList/ProjectsList';
 
 function App() {
     return (
       <div className="app">
         <Header />
         <Menubar />
-        <div className='sections'>         
-              <Intro />
-              <Projects />
-              <About/>
-              <Skills />
-              <Contact />
-              <Footer />                     
-        </div>
+        <Routes>
+            <Route path='/' element={<Home/>}  />
+            <Route path='/projectslist' element={<ProjectsList/>} />
+        </Routes>
+        <Footer/>
       </div>
      
     );

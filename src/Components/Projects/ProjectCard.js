@@ -2,7 +2,7 @@ import React from 'react';
 import './proj.css'
 
 
-const Project = ({projectItem}) => {
+const ProjectCard = ({projectItem}) => {
   
     return (
         <>          
@@ -34,4 +34,4 @@ const Project = ({projectItem}) => {
     );
 }
 
-export default Project;
+export default ProjectCard;

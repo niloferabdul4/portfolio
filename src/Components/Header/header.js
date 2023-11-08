@@ -4,6 +4,7 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import {GrClose} from 'react-icons/gr'
 import AppContext from "../Context/Context";
 import Social from "./Social";
+import { Link } from "react-router-dom";
   
 export default function Header()
 {   
@@ -26,7 +27,7 @@ export default function Header()
                     < div className='right_section'>                        
                             <div className="right_section_lists">
                                 <ul>
-                                    <li><a href="#projects">Projects</a></li>
+                                 <Link  style={{ color:'#e6e1f9'}} to='/projectslist'>Projects</Link>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                                

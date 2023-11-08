@@ -4,6 +4,7 @@ import { init } from 'ityped';
 import image from '../../assets/web-development.png';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 
 export default function Intro(){
@@ -32,9 +33,9 @@ export default function Intro(){
                            <a href='#contact'>
                                 <button className='intro_btn' >Contact</button>  
                             </a>
-                            <a href='#projects'>
+                            <Link  to='/projectslist'>
                                 <button className='intro_btn' >Projects</button>  
-                            </a>      
+                            </Link>      
                         </div>                                                     
                    </div>                                
                </div>       
