@@ -26,7 +26,7 @@ export default function Contact(){
 
     return(
         <>
-    <section className="contact" id='contact' >
+    <section className="contact" id='Contact' >
             <h2 className='sub_heading'>Contact Me</h2>
 
         <div className="contact_container">                  

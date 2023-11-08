@@ -13,66 +13,40 @@ import AppContext from '../Context/Context';
 export default function Menubar() {
 
     const {menuOpen,setMenuOpen}=useContext(AppContext)
+    
 
+   const menuItems=[{id:1,title:'Intro',icon:<FaHome/>},
+                    {id:2,title:'About Me',icon:<FaUserAlt/>},
+                    {id:3,title:'Projects',icon:<FaProjectDiagram/>},
+                    {id:4,title:'Skills',icon:<FaLayerGroup/>},
+                    {id:5,title:'Contact',icon:<FaPhoneAlt/>},
+                   ]
 
-    return (
-        <div className={"menu "+(menuOpen && "active")}>
-          
-          <ul>
+    const handleMenu=(item)=>{
+      setMenuOpen(false)
       
-        <li onClick={()=>setMenuOpen(false)}>
-          <a href="#intro">
-          <div className='span_icon'>
-              <FaHome />                        
-          </div>
-          <div className='span_name'>
-               Intro
-          </div>   
-          </a>
-        </li>
-        <li onClick={()=>setMenuOpen(false)}>
-          <a href="#about">
-          <div className='span_icon'>
-              <FaUserAlt/>                        
-          </div>
-          <div className='span_name'>
-               About Me
-          </div>   
-          </a>
-        </li>
-        <li onClick={()=>setMenuOpen(false)}>
-          <a href="#skills">
-          <div className='span_icon'>
-              <FaLayerGroup />                        
-          </div>
-          <div className='span_name'>
-               Skills
-          </div>   
-          </a>
-        </li>
-        <li onClick={()=>setMenuOpen(false)}>
-          <a href="#projects">
-          <div className='span_icon'>
-              <FaProjectDiagram />                        
-          </div>
-          <div className='span_name'>
-               Projects
-          </div>   
-          </a>
-        </li>
-        <li onClick={()=>setMenuOpen(false)}>
-          <a href="#contact">
-          <div className='span_icon'>
-              <FaPhoneAlt />                        
-          </div>
-          <div className='span_name'>
-               Contact
-          </div>   
-          </a>
-        </li>        
-       
-      </ul>    
+    }
+    return (
+      <>
+     
+        <div className={"menu "+(menuOpen && "active")}>
+        {menuItems.map(item=>{return <>
+          <ul>  
+                  <li>
+                  <a href ={`#${item.title}`}className='menu_lists' key={item.title} onClick={()=>handleMenu(item)}>
+                    <div className='span_icon'>
+                      {item.icon}                        
+                    </div>
+                   <div className='span_name'>
+                       {item.title}
+                   </div>  
+                   </a>
+                   </li>            
+      
+           </ul>  
+           </>})}   
          </div>
-                    
+         
+        </>            
     )
 }

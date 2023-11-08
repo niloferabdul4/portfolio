@@ -8,7 +8,7 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
     const navigate=useNavigate()
     return (
-        <div className='projects' id='projects'> 
+        <div className='projects' id='Projects'> 
 
         <h2 className='subHeading'>Projects</h2>
        <div className='projects_container' >

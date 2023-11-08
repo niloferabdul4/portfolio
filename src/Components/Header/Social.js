@@ -8,8 +8,6 @@ import {FaGithub} from "react-icons/fa";
 import {
     FaFacebookF,
     FaInstagram,
-    FaWhatsapp,
-    FaTwitter,
     FaLinkedinIn,
     FaGithub,
   } from "react-icons/fa";

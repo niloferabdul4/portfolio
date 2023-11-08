@@ -18,7 +18,7 @@ export default function Intro(){
     return (
 
        
-        <div className='intro_container' id='intro'>                           
+        <div className='intro_container' id='Home'>                           
                <div className='intro_wrapper'>                  
                   <div className='intro_left'>
                      <img className='vector_image' src={image} alt=''/>                 

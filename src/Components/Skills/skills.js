@@ -4,9 +4,10 @@ import './skills.css'
 
 
 const Skills=()=>{
+  
     return(
         <>
-        <div className="skills_container" id='skills'>
+        <div className="skills_container" id='Skills'>
             <h2 className='skills_heading'>Skills</h2>
 
             <div className="skills_box">
