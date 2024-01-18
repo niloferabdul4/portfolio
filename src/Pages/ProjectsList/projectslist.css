@@ -35,10 +35,10 @@
     .projectslist_container
     {  
         display:grid;
-        grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
         grid-template-rows: repeat(auto-fill,auto);
-        grid-column-gap:4px;
-        grid-row-gap:60px;
+        grid-column-gap:2px;
+        grid-row-gap:6px;
         margin: 3em 0.2em ;
        
     }
@@ -53,16 +53,16 @@
 
 .projectslist_container{
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(380px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
     grid-template-rows: repeat(auto-fill,auto);
     grid-column-gap:10px;
-    grid-row-gap:60px;
+    grid-row-gap:10px;
     margin:2em 3em;
    
 }
 
 .subHeading{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .proj_card{

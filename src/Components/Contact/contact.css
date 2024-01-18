@@ -124,7 +124,7 @@
     background-color:#f1f0f4;
     border-radius: 10px;
     min-height:80vh;
-    width:50%;
+    width:40%;
     margin: 1.5em 0em;
     padding: 3em 3.2em;
     box-shadow: rgba(29, 24, 24, 0.15)  2.90px 2.95px 2.95px 2.6px;
@@ -167,7 +167,7 @@
     .contact_container{
     gap:100px;
     min-height:70vh;
-    width:80%;
+    width:70%;
     margin: 1.5em 0em;
     
     }

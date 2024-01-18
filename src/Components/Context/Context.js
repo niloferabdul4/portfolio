@@ -7,8 +7,7 @@ import React, { useState,createContext } from 'react';
         return (
             <div>
                 <AppContext.Provider value={{menuOpen,setMenuOpen}}>
-                   {children}
-                    
+                   {children}                    
                 </AppContext.Provider>
                 
             </div>

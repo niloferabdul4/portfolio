@@ -13,7 +13,7 @@ export default function Intro(){
     useEffect(()=>{init(textRef.current, { showCursor: false,
         backDelay:1500,
         backSpeed:80,
-        strings: ["Front End Developer", "React JS Developer"],
+        strings: ["MERN Stack Developer", "Web Developer"],
         })},[])
     return (
 
@@ -34,7 +34,7 @@ export default function Intro(){
                                 <button className='intro_btn' >Contact</button>  
                             </a>
                             <Link  to='/projectslist'>
-                                <button className='intro_btn' >Projects</button>  
+                                <button className='intro_btn' >Resume</button>  
                             </Link>      
                         </div>                                                     
                    </div>                                

@@ -10,7 +10,7 @@
 
 
 .projects_container{
-    padding: 1em;
+    padding: 0.6em;
     margin:1em 0em;
    
      
@@ -47,14 +47,12 @@
 .image_container{
     display: flex;
     flex-direction: column;
-    margin-bottom:1em;   
+    margin-bottom:0.6em;   
     height:80%;
 }
 
 .info_container{
-    
-     text-align: justify;
-     padding:1em 0em;
+     padding:0.6em 0em;
   
 }
 
@@ -66,12 +64,12 @@
 }
 .description
 {
-font-size: 0.98rem;
-line-height: 1.65;
-overflow: hidden;
-display: -webkit-box;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
+    font-size: 0.98rem;
+    line-height: 1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 
@@ -89,7 +87,7 @@ display: -webkit-box;
 }
 .btn{
     border-radius: 10px;
-    margin: 1em;
+    margin: 0.6em;
     padding: 1em ;
     letter-spacing: 2px;
     font-size: 1rem;
@@ -138,6 +136,14 @@ display: -webkit-box;
     margin: 3em 0.1em ;
     padding: 0em;
 }
+.description
+{
+   
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
  
 .btn{
        
@@ -152,7 +158,7 @@ display: -webkit-box;
 .proj_card{
     min-height: 300px;
     margin: 0.5em;
-    padding: 1em;    
+    padding: 0.5em;    
 }
 .info_container{
     display:flex;
@@ -182,13 +188,13 @@ display: -webkit-box;
     }
     .projects_container{
         display:grid;
-        grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
         margin: 3em 4em;
         
         
     }
     .proj_card{
-        padding: 1.2em;
+        padding: 1em;
     }
     .view_more{
     
