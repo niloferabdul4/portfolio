@@ -40,7 +40,7 @@
 
 .proj_title{
    
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 1em 0em;
 }
 
@@ -70,7 +70,9 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    
 }
+
 
 
 .proj_image{
@@ -179,6 +181,9 @@ display: -webkit-box;
 .go_back{
     margin:2em;
 }
+.description{
+    font-size: 0.85rem;
+}
 }
 
 @media screen and (min-width:821px)  {
@@ -195,16 +200,23 @@ display: -webkit-box;
     }
     .proj_card{
         padding: 1em;
+       
+    }
+    .description{
+        font-size: 0.9rem;
     }
     .view_more{
     
         margin: 0.2em 1em 3em 1em;
         letter-spacing: 2px;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        font-weight: 500;
        
     }
     .go_back{
         margin:2em;
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 
 }

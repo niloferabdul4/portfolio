@@ -10,7 +10,6 @@
     background-color: #340d3d;
     color:white;
     z-index: 1;
-    font-size: 1.2rem;
     height: 100%;
 }
 
@@ -62,7 +61,7 @@
 }
 
 .subHeading{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .proj_card{
@@ -71,7 +70,7 @@
  }
 
  .description{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
  }
 
  .btn{
@@ -90,7 +89,8 @@
 }
 .proj_title{
    
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
    
 }
 }
