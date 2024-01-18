@@ -35,7 +35,7 @@
     .projectslist_container
     {  
         display:grid;
-        grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
         grid-template-rows: repeat(auto-fill,auto);
         grid-column-gap:4px;
         grid-row-gap:60px;
@@ -53,7 +53,7 @@
 
 .projectslist_container{
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(380px,1fr));
     grid-template-rows: repeat(auto-fill,auto);
     grid-column-gap:10px;
     grid-row-gap:60px;
