@@ -15,6 +15,12 @@ export default function Intro(){
         backSpeed:80,
         strings: ["MERN Stack Developer", "Web Developer"],
         })},[])
+
+    const downloadResume=()=>{
+     
+            window.open('/resume.pdf', '_blank');
+ 
+    }
     return (
 
        
@@ -34,7 +40,7 @@ export default function Intro(){
                                 <button className='intro_btn' >Contact</button>  
                             </a>
                             <Link  to='/projectslist'>
-                                <button className='intro_btn' >Resume</button>  
+                                <button className='intro_btn' onClick={downloadResume} >Resume</button>  
                             </Link>      
                         </div>                                                     
                    </div>                                
